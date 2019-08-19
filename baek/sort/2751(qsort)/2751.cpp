@@ -6,7 +6,7 @@ int data[1000001];
 void qsort(int *data,int left,int right){
   int pivot = data[left];
   if(left>=right)return;
-  
+
   int i=left+1, j=right, temp;
   while(i<=j){
     while(data[i]<=pivot){
