@@ -1,0 +1,5448 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.20)  20 AUG 2019 15:34
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**test.tex
+(./test.tex
+LaTeX2e <2018-12-01>
+(/usr/local/texlive/2019basic/texmf-dist/tex/latex/extsizes/extarticle.cls
+Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
+(/usr/local/texlive/2019basic/texmf-dist/tex/latex/extsizes/size8.clo
+File: size8.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+)
+(/usr/local/texlive/2019basic/texmf-dist/tex/latex/base/exscale.sty
+Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+\big@size=\dimen102
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen103
+)
+
+! LaTeX Error: File `titlesec.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+
+! LaTeX Error: Unknown option `compact' for package `titlesec'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 \titlespacing
+                 *{\section}
+? 
+! Undefined control sequence.
+<recently read> \titlespacing 
+                              
+l.7 \titlespacing
+                 *{\section}
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 \titlespacing*
+                  {\section}
+? 
+! Argument of \@xdblarg has an extra }.
+<inserted text> 
+                \par 
+l.7 \titlespacing*{\section}
+                            
+? 
+Runaway argument?
+! Paragraph ended before \@xdblarg was complete.
+<to be read again> 
+                   \par 
+l.7 \titlespacing*{\section}
+                            
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 {0
+      pt}{0px plus 1px minus 0px}{-2px plus 0px minus 0px}
+? 
+! Undefined control sequence.
+l.9 \titlespacing
+                 *{\subsection}
+? 
+! Argument of \@xdblarg has an extra }.
+<inserted text> 
+                \par 
+l.9 \titlespacing*{\subsection}
+                               
+? 
+Runaway argument?
+! Paragraph ended before \@xdblarg was complete.
+<to be read again> 
+                   \par 
+l.9 \titlespacing*{\subsection}
+                               
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 {0
+       pt}{0px plus 1px minus 0px}{0px plus 3px minus 3px}
+? 
+
+! LaTeX Error: File `kotex.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+(/usr/local/texlive/2019basic/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+(/usr/local/texlive/2019basic/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2019basic/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+(/usr/local/texlive/2019basic/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2019basic/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen104
+\Gm@wd@mp=\dimen105
+\Gm@odd@mp=\dimen106
+\Gm@even@mp=\dimen107
+\Gm@layoutwidth=\dimen108
+\Gm@layoutheight=\dimen109
+\Gm@layouthoffset=\dimen110
+\Gm@layoutvoffset=\dimen111
+\Gm@dimlist=\toks15
+)
+(/usr/local/texlive/2019basic/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2019basic/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2019basic/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen112
+))
+(/usr/local/texlive/2019basic/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen113
+)
+(/usr/local/texlive/2019basic/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count91
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count92
+\leftroot@=\count93
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count94
+\DOTSCASE@=\count95
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen114
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count96
+\c@MaxMatrixCols=\count97
+\dotsspace@=\muskip10
+\c@parentequation=\count98
+\dspbrk@lvl=\count99
+\tag@help=\toks17
+\row@=\count100
+\column@=\count101
+\maxfields@=\count102
+\andhelp@=\toks18
+\eqnshift@=\dimen115
+\alignsep@=\dimen116
+\tagshift@=\dimen117
+\tagwidth@=\dimen118
+\totwidth@=\dimen119
+\lineht@=\dimen120
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+(/usr/local/texlive/2019basic/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box29
+\UL@hyphenbox=\box30
+\UL@skip=\skip46
+\UL@hook=\toks21
+\UL@height=\dimen121
+\UL@pe=\count103
+\UL@pixel=\dimen122
+\ULC@box=\box31
+Package: ulem 2012/05/18
+\ULdepth=\dimen123
+)
+(/usr/local/texlive/2019basic/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2019basic/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+
+! LaTeX Error: File `minted.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+(/usr/local/texlive/2019basic/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2019basic/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+
+(/usr/local/texlive/2019basic/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+(/usr/local/texlive/2019basic/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
+
+(/usr/local/texlive/2019basic/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.s
+ty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/local/texlive/2019basic/texmf-dist/tex/generic/oberdiek/hobsub-generic.st
+y
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+) (/usr/local/texlive/2019basic/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2019basic/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen124
+\Hy@linkcounter=\count104
+\Hy@pagecounter=\count105
+
+(/usr/local/texlive/2019basic/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count106
+
+(/usr/local/texlive/2019basic/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4519.
+Package hyperref Info: Link nesting OFF on input line 4524.
+Package hyperref Info: Hyper index ON on input line 4527.
+Package hyperref Info: Plain pages OFF on input line 4534.
+Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4772.
+\c@Hy@tempcnt=\count107
+
+(/usr/local/texlive/2019basic/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5125.
+\XeTeXLinkMargin=\dimen125
+\Fld@menulength=\count108
+\Field@Width=\dimen126
+\Fld@charsize=\dimen127
+Package hyperref Info: Hyper figures OFF on input line 6380.
+Package hyperref Info: Link nesting OFF on input line 6385.
+Package hyperref Info: Hyper index ON on input line 6388.
+Package hyperref Info: backreferencing OFF on input line 6395.
+Package hyperref Info: Link coloring OFF on input line 6400.
+Package hyperref Info: Link coloring with OCG OFF on input line 6405.
+Package hyperref Info: PDF/A mode OFF on input line 6410.
+LaTeX Info: Redefining \ref on input line 6450.
+LaTeX Info: Redefining \pageref on input line 6454.
+\Hy@abspage=\count109
+\c@Item=\count110
+\c@Hfootnote=\count111
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2019basic/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
+\Fld@listcount=\count112
+\c@bookmark@seq@number=\count113
+
+(/usr/local/texlive/2019basic/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip47
+) (/usr/local/texlive/2019basic/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+
+! LaTeX Error: File `enumitem.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+(/usr/local/texlive/2019basic/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip48
+\f@nch@O@elh=\skip49
+\f@nch@O@erh=\skip50
+\f@nch@O@olh=\skip51
+\f@nch@O@orh=\skip52
+\f@nch@O@elf=\skip53
+\f@nch@O@erf=\skip54
+\f@nch@O@olf=\skip55
+\f@nch@O@orf=\skip56
+)
+
+! LaTeX Error: File `lastpage.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+! Undefined control sequence.
+l.35 \setminted
+               {breaklines=true, tabsize=2, breaksymbolleft=}
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 \setminted{b
+                 reaklines=true, tabsize=2, breaksymbolleft=}
+? 
+! Undefined control sequence.
+l.36 \usemintedstyle
+                    {perldoc}
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.38 \setlength\partopsep{-\topsep -\parskip}
+                                             
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \relax 
+l.38 \setlength\partopsep{-\topsep -\parskip}
+                                             
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.38 \setlength\partopsep{-\topsep -\parskip}
+                                             
+? 
+No file test.aux.
+\openout1 = `test.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: landscape 
+* h-part:(L,W,R)=(22.76228pt, 799.52228pt, 22.76228pt)
+* v-part:(T,H,B)=(56.9055pt, 532.06647pt, 8.5359pt)
+* \paperwidth=845.04684pt
+* \paperheight=597.50787pt
+* \textwidth=799.52228pt
+* \textheight=532.06647pt
+* \oddsidemargin=-49.5077pt
+* \evensidemargin=-49.5077pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=5.69046pt
+* \topskip=9.0pt
+* \footskip=30.0pt
+* \marginparwidth=24.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=7.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumntrue
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2019basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count114
+\scratchdimen=\dimen128
+\scratchbox=\box32
+\nofMPsegments=\count115
+\nofMParguments=\count116
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count117
+\MPscratchDim=\dimen129
+\MPnumerator=\count118
+\makeMPintoPDFobject=\count119
+\everyMPtoPDFconversion=\toks23
+)
+\AtBeginShipoutBox=\box33
+Package hyperref Info: Link coloring OFF on input line 48.
+ (/usr/local/texlive/2019basic/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/local/texlive/2019basic/texmf-dist/tex/generic/oberdiek/gettitlestring.st
+y
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count120
+)
+LaTeX Info: Redefining \ref on input line 48.
+LaTeX Info: Redefining \pageref on input line 48.
+LaTeX Info: Redefining \nameref on input line 48.
+\@outlinefile=\write3
+\openout3 = `test.out'.
+
+
+
+LaTeX Warning: Reference `LastPage' on page 1 undefined on input line 54.
+
+[1{/usr/local/texlive/2019basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 54.
+
+(/usr/local/texlive/2019basic/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 54.
+
+(/usr/local/texlive/2019basic/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+\tf@toc=\write4
+\openout4 = `test.toc'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.64 \begin{minted}
+                   {cpp}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.69 void add_
+              edge(int l, int r){ gph[l].push_back(r); }
+? 
+! Misplaced alignment tab character &.
+l.75 		if(l[i] == -1 &
+                      & !dis[i]){
+? 
+! Misplaced alignment tab character &.
+l.75 		if(l[i] == -1 &&
+                        !dis[i]){
+? 
+! Misplaced alignment tab character &.
+l.83 		for(auto &
+                 i : gph[x]){
+? 
+! Misplaced alignment tab character &.
+l.96 	for(auto &
+                i : gph[x]){
+? 
+! Misplaced alignment tab character &.
+l.97 		if(r[i] == -1 || (!vis[r[i]] &
+                                     & dis[r[i]] == dis[x] + 1 && dfs(r[i]))){
+? 
+! Misplaced alignment tab character &.
+l.97 		if(r[i] == -1 || (!vis[r[i]] &&
+                                       dis[r[i]] == dis[x] + 1 && dfs(r[i]))){
+? 
+! Misplaced alignment tab character &.
+l.97 ...| (!vis[r[i]] && dis[r[i]] == dis[x] + 1 &
+                                                  & dfs(r[i]))){
+? 
+! Misplaced alignment tab character &.
+l.97 ... (!vis[r[i]] && dis[r[i]] == dis[x] + 1 &&
+                                                   dfs(r[i]))){
+? 
+! Misplaced alignment tab character &.
+l.110 		for(int i=0; i<n; i++) if(l[i] == -1 &
+                                              & dfs(i)) ret++;
+? 
+! Misplaced alignment tab character &.
+l.110 		for(int i=0; i<n; i++) if(l[i] == -1 &&
+                                                dfs(i)) ret++;
+? 
+! Misplaced alignment tab character &.
+l.118 	for(auto &
+                 i : gph[x]){
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.132 \end{minted}
+                  
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.132 \end{minted}
+                  
+? 
+
+Underfull \hbox (badness 2443) in paragraph at lines 64--133
+[]\OT1/cmr/m/n/8 cpp const int MAXN = 50005, MAXM = 50005; vec-tor<int> gph[MAX
+N]; int dis[MAXN],
+ []
+
+
+Underfull \hbox (badness 1924) in paragraph at lines 64--133
+\OT1/cmr/m/n/8 l[MAXN], r[MAXM], vis[MAXN]; void clear() for(int i=0; i<MAXN; i
+++) gph[i].clear();  void
+ []
+
+
+Overfull \hbox (2152.68665pt too wide) in paragraph at lines 64--133
+\OT1/cmr/m/n/8 add$[]\OML/cmm/m/it/8 dge\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 intl; i
+ntr\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 boolbfs\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 int
+n\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 booldfs\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 intx\
+OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 intmatch\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 intn\O
+T1/cmr/m/n/8 )[]\OML/cmm/m/it/8 boolchk\OT1/cmr/m/n/8 [\OML/cmm/m/it/8 MAXN \OT
+1/cmr/m/n/8 +
+ []
+
+
+Overfull \hbox (28.88695pt too wide) in paragraph at lines 64--133
+\OML/cmm/m/it/8 MAXM\OT1/cmr/m/n/8 ]; \OML/cmm/m/it/8 voidrdfs\OT1/cmr/m/n/8 (\
+OML/cmm/m/it/8 intx; intn\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 vector <
+ []
+
+
+Overfull \hbox (621.82504pt too wide) in paragraph at lines 64--133
+\OML/cmm/m/it/8 int > getcover\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 intn; intm\OT1/cm
+r/m/n/8 )[]$ 
+ []
+
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.134 \begin{minted}
+                    {cpp}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.139 void add_
+               edge(int s, int e, int x){
+? 
+! Misplaced alignment tab character &.
+l.153 		for(auto &
+                  e : gph[x]){
+? 
+! Misplaced alignment tab character &.
+l.154 			if(e.cap > 0 &
+                       & !dis[e.pos]){
+? 
+! Misplaced alignment tab character &.
+l.154 			if(e.cap > 0 &&
+                         !dis[e.pos]){
+? 
+! Misplaced alignment tab character &.
+l.166 		if(e.cap > 0 &
+                      & dis[e.pos] == dis[x] + 1){
+? 
+! Misplaced alignment tab character &.
+l.166 		if(e.cap > 0 &&
+                        dis[e.pos] == dis[x] + 1){
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.185 \end{minted}
+                  
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.185 \end{minted}
+                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--186
+[]\OT1/cmr/m/n/8 cpp const int MAXN = 505; struct edg int pos, cap, rev; ; vec-
+tor<edg>
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--186
+\OT1/cmr/m/n/8 gph[MAXN]; void clear() for(int i=0; i<MAXN; i++) gph[i].clear()
+;  void
+ []
+
+
+Overfull \hbox (2567.39001pt too wide) in paragraph at lines 134--186
+\OT1/cmr/m/n/8 add$[]\OML/cmm/m/it/8 dge\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 ints; i
+nte; intx\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 intdis\OT1/cmr/m/n/8 [\OML/cmm/m/it/
+8 MAXN\OT1/cmr/m/n/8 ]\OML/cmm/m/it/8 ; pnt\OT1/cmr/m/n/8 [\OML/cmm/m/it/8 MAXN
+\OT1/cmr/m/n/8 ]; \OML/cmm/m/it/8 boolbfs\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 intsrc
+; intsink\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 intdfs\OT1/cmr/m/n/8 (\OML/cmm/m/it/
+8 intx; intsink; intf\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 lintmatch\OT1/cmr/m/n/8 
+(\OML/cmm/m/it/8 intsrc; intsink\OT1/cmr/m/n/8 )[]$ 
+ []
+
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.187 \begin{minted}
+                    {cpp}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.194 void add_
+               edge(int s, int e, int x, int c){
+? 
+! Misplaced alignment tab character &.
+l.215 			if(e.cap > 0 &
+                       & dist[e.pos] > dist[x] + e.cost){
+? 
+! Misplaced alignment tab character &.
+l.215 			if(e.cap > 0 &&
+                         dist[e.pos] > dist[x] + e.cost){
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.244 \end{minted}
+                  
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.244 \end{minted}
+                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--245
+[]\OT1/cmr/m/n/8 cpp const int MAXN = 100; struct edg int pos, cap, rev, cost; 
+; vec-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 187--245
+\OT1/cmr/m/n/8 tor<edg> gph[MAXN]; void clear() for(int i=0; i<MAXN; i++) gph[i
+].clear();  void
+ []
+
+
+Overfull \hbox (3237.91823pt too wide) in paragraph at lines 187--245
+\OT1/cmr/m/n/8 add$[]\OML/cmm/m/it/8 dge\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 ints; i
+nte; intx; intc\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 intdist\OT1/cmr/m/n/8 [\OML/cm
+m/m/it/8 MAXN\OT1/cmr/m/n/8 ]\OML/cmm/m/it/8 ; pa\OT1/cmr/m/n/8 [\OML/cmm/m/it/
+8 MAXN\OT1/cmr/m/n/8 ]\OML/cmm/m/it/8 ; pe\OT1/cmr/m/n/8 [\OML/cmm/m/it/8 MAXN\
+OT1/cmr/m/n/8 ]; \OML/cmm/m/it/8 boolinque\OT1/cmr/m/n/8 [\OML/cmm/m/it/8 MAXN\
+OT1/cmr/m/n/8 ]; \OML/cmm/m/it/8 boolspfa\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 intsrc
+; intsink\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 intmatch\OT1/cmr/m/n/8 (\OML/cmm/m/i
+t/8 intsrc; intsink\OT1/cmr/m/n/8 )[]$ 
+ []
+
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.246 \begin{minted}
+                    {cpp}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.251 void add_
+               edge(int s, int e, int x, int c){
+? 
+! Misplaced alignment tab character &.
+l.266 		for(auto &
+                  i : gph[x]){
+? 
+! Misplaced alignment tab character &.
+l.267 			if(i.cap > 0 &
+                       & phi[i.pos] > phi[x] + i.cost){
+? 
+! Misplaced alignment tab character &.
+l.267 			if(i.cap > 0 &&
+                         phi[i.pos] > phi[x] + i.cost){
+? 
+! Misplaced alignment tab character &.
+l.277 		for(auto &
+                  j : gph[i]){
+? 
+! Misplaced alignment tab character &.
+l.288 		for(auto &
+                  i : gph[l.second]){
+? 
+! Misplaced alignment tab character &.
+l.289 			if(i.cap > 0 &
+                       & dist[i.pos] > l.first + i.cost){
+? 
+! Misplaced alignment tab character &.
+l.289 			if(i.cap > 0 &&
+                         dist[i.pos] > l.first + i.cost){
+? 
+! Misplaced alignment tab character &.
+l.302 		auto &
+              i = gph[pos][ptr[pos]];
+? 
+! Misplaced alignment tab character &.
+l.303 		if(!vis[i.pos] &
+                        & dist[i.pos] == i.cost + dist[pos] && i.cap > 0){
+? 
+! Misplaced alignment tab character &.
+l.303 		if(!vis[i.pos] &&
+                          dist[i.pos] == i.cost + dist[pos] && i.cap > 0){
+? 
+! Misplaced alignment tab character &.
+l.303 ...s] && dist[i.pos] == i.cost + dist[pos] &
+                                                  & i.cap > 0){
+? 
+! Misplaced alignment tab character &.
+l.303 ...] && dist[i.pos] == i.cost + dist[pos] &&
+                                                   i.cap > 0){
+? 
+! Misplaced alignment tab character &.
+l.329 			for(auto &
+                   j : gph[i]){
+? 
+! Misplaced alignment tab character &.
+l.330 				if(j.cap > 0 &
+                        & !vis[j.pos]){
+? 
+! Misplaced alignment tab character &.
+l.330 				if(j.cap > 0 &&
+                          !vis[j.pos]){
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.342 \end{minted}
+                  
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.342 \end{minted}
+                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--343
+[]\OT1/cmr/m/n/8 cpp const int MAXN = 100; struct edg int pos, cap, rev, cost; 
+; vec-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--343
+\OT1/cmr/m/n/8 tor<edg> gph[MAXN]; void clear() for(int i=0; i<MAXN; i++) gph[i
+].clear();  void
+ []
+
+
+Overfull \hbox (6147.07233pt too wide) in paragraph at lines 246--343
+\OT1/cmr/m/n/8 add$[]\OML/cmm/m/it/8 dge\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 ints; i
+nte; intx; intc\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 intphi\OT1/cmr/m/n/8 [\OML/cmm
+/m/it/8 MAXN\OT1/cmr/m/n/8 ]\OML/cmm/m/it/8 ; inque\OT1/cmr/m/n/8 [\OML/cmm/m/i
+t/8 MAXN\OT1/cmr/m/n/8 ]\OML/cmm/m/it/8 ; dist\OT1/cmr/m/n/8 [\OML/cmm/m/it/8 M
+AXN\OT1/cmr/m/n/8 ]; \OML/cmm/m/it/8 voidprep\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 in
+tsrc; intsink\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 boolvis\OT1/cmr/m/n/8 [\OML/cmm/
+m/it/8 MAXN\OT1/cmr/m/n/8 ]; \OML/cmm/m/it/8 intptr\OT1/cmr/m/n/8 [\OML/cmm/m/i
+t/8 MAXN\OT1/cmr/m/n/8 ]; \OML/cmm/m/it/8 intdfs\OT1/cmr/m/n/8 (\OML/cmm/m/it/8
+ intpos; intsink; intflow\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 intmatch\OT1/cmr/m/n
+/8 (\OML/cmm/m/it/8 intsrc; intsink; intsz\OT1/cmr/m/n/8 )[]$ 
+ []
+
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.344 \begin{minted}
+                    {cpp}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.351 void add_
+               edge(int s, int e, int l, int r){
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.362 \end{minted}
+                  
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.362 \end{minted}
+                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 344--363
+[]\OT1/cmr/m/n/8 cpp maxflow mf; lint lsum; void clear() lsum = 0; mf.clear(); 
+ void
+ []
+
+
+Overfull \hbox (868.50009pt too wide) in paragraph at lines 344--363
+\OT1/cmr/m/n/8 add$[]\OML/cmm/m/it/8 dge\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 ints; i
+nte; intl; intr\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 boolsolve\OT1/cmr/m/n/8 (\OML/
+cmm/m/it/8 ints; inte\OT1/cmr/m/n/8 )[]$ 
+ []
+
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.364 \begin{minted}
+                    {cpp}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.366 ...xity is ridiculously high (F * maxC * nm^
+                                                  2). But runs reasonably in...
+
+? 
+! Misplaced alignment tab character &.
+l.382 			for(auto &
+                   k : gph[j]){
+? 
+! Misplaced alignment tab character &.
+l.383 				if(k.cap > 0 &
+                        & dist[k.pos] > dist[j] + k.cost){
+? 
+! Misplaced alignment tab character &.
+l.383 				if(k.cap > 0 &&
+                          dist[k.pos] > dist[j] + k.cost){
+? 
+! Misplaced alignment tab character &.
+l.415 		for(auto &
+                  i : cyc){
+? 
+! Misplaced alignment tab character &.
+l.416 			auto e = &
+                   gph[i.first][i.second];
+? 
+! Misplaced alignment tab character &.
+l.419 		for(auto &
+                  i : cyc){
+? 
+! Misplaced alignment tab character &.
+l.420 			auto e = &
+                   gph[i.first][i.second];
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.428 \end{minted}
+                  
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.428 \end{minted}
+                  
+? 
+
+Overfull \hbox (3584.73975pt too wide) in paragraph at lines 364--429
+\OML/cmm/m/it/8 gph\OT1/cmr/m/n/8 [\OML/cmm/m/it/8 MAXN\OT1/cmr/m/n/8 ]; \OML/c
+mm/m/it/8 voidclear\OT1/cmr/m/n/8 ()[]\OML/cmm/m/it/8 voidadd[]dge\OT1/cmr/m/n/
+8 (\OML/cmm/m/it/8 ints; inte; intx; intc\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 intd
+ist\OT1/cmr/m/n/8 [\OML/cmm/m/it/8 MAXN\OT1/cmr/m/n/8 ]\OML/cmm/m/it/8 ; par\OT
+1/cmr/m/n/8 [\OML/cmm/m/it/8 MAXN\OT1/cmr/m/n/8 ]\OML/cmm/m/it/8 ; pae\OT1/cmr/
+m/n/8 [\OML/cmm/m/it/8 MAXN\OT1/cmr/m/n/8 ]; \OML/cmm/m/it/8 intnegative[]ycle\
+OT1/cmr/m/n/8 (\OML/cmm/m/it/8 intn\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 intmatch\O
+T1/cmr/m/n/8 (\OML/cmm/m/it/8 intn\OT1/cmr/m/n/8 )[]$ 
+ []
+
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.430 \begin{minted}
+                    {cpp}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.435 void add_
+               edge(int s, int e, int x){ edgs.push_back({s, e, x}); }
+? 
+! Misplaced alignment tab character &.
+l.440 	for(auto &
+                 i : mf.gph[x]) if(i.cap > 0) dfs(i.pos);
+? 
+! Misplaced alignment tab character &.
+l.445 		for(auto &
+                  j : edgs){
+? 
+! Misplaced alignment tab character &.
+l.453 			if(ret[j].second == ret[i].second &
+                                            & vis[j]){
+? 
+! Misplaced alignment tab character &.
+l.453 			if(ret[j].second == ret[i].second &&
+                                              vis[j]){
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.461 \end{minted}
+                  
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.461 \end{minted}
+                  
+? 
+
+Overfull \hbox (200.13753pt too wide) in paragraph at lines 430--462
+\OT1/cmr/m/n/8 add$[]\OML/cmm/m/it/8 dge\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 ints; i
+nte; intx\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 boolvis\OT1/cmr/m/n/8 [\OML/cmm/m/it
+/8 MAXN\OT1/cmr/m/n/8 ]; \OML/cmm/m/it/8 voiddfs\OT1/cmr/m/n/8 (\OML/cmm/m/it/8
+ intx\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 vector <
+ []
+
+
+Overfull \hbox (1063.36447pt too wide) in paragraph at lines 430--462
+\OML/cmm/m/it/8 pi > solve\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 intn\OT1/cmr/m/n/8 )[
+]$ 
+ []
+
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.463 \begin{minted}
+                    {cpp}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.470 	conn[u].push_
+                    back(v); conn[v].push_back(u);
+? 
+! Extra }, or forgotten $.
+l.471 }
+       
+? 
+! Misplaced alignment tab character &.
+l.516 			else if(vis[x] == 0 &
+                              & orig[v] != orig[x]) {
+? 
+! Misplaced alignment tab character &.
+l.516 			else if(vis[x] == 0 &&
+                                orig[v] != orig[x]) {
+? 
+! Misplaced alignment tab character &.
+l.535 	for(int i=1; i<=N; ++i) if(!match[i] &
+                                             & bfs(i)) ++ans;
+? 
+! Misplaced alignment tab character &.
+l.535 	for(int i=1; i<=N; ++i) if(!match[i] &&
+                                               bfs(i)) ++ans;
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.538 \end{minted}
+                  
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.538 \end{minted}
+                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.538 \end{minted}
+                  
+? 
+
+Overfull \hbox (4424.04541pt too wide) in paragraph at lines 463--539
+\OT1/cmr/m/n/8 conn[u].push$[]\OML/cmm/m/it/8 ack\OT1/cmr/m/n/8 (\OML/cmm/m/it/
+8 v\OT1/cmr/m/n/8 ); \OML/cmm/m/it/8 conn\OT1/cmr/m/n/8 [\OML/cmm/m/it/8 v\OT1/
+cmr/m/n/8 ]\OML/cmm/m/it/8 :push[]ack\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 u\OT1/cmr/
+m/n/8 ); \OML/cmm/m/it/8 voidinit\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 intn\OT1/cmr/m
+/n/8 )[]\OML/cmm/m/it/8 voidaugment\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 intu; intv\O
+T1/cmr/m/n/8 )[]\OML/cmm/m/it/8 intlca\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 intv; int
+w\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 voidblossom\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 i
+ntv; intw; inta\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 boolbfs\OT1/cmr/m/n/8 (\OML/cm
+m/m/it/8 intu\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 intMatch\OT1/cmr/m/n/8 ()[]$ 
+ []
+
+
+LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 539.
+
+[2
+
+]
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.540 \begin{minted}
+                    {cpp}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.541 // N^
+           3 (but fast in practice)
+? 
+! Misplaced alignment tab character &.
+l.556 int e_delta(const edge &
+                              e){
+? 
+! Misplaced alignment tab character &.
+l.565 		if(g[u][x].w>0&
+                       &st[u]!=x&&S[st[u]]==0)
+? 
+! Misplaced alignment tab character &.
+l.565 		if(g[u][x].w>0&&
+                        st[u]!=x&&S[st[u]]==0)
+? 
+! Misplaced alignment tab character &.
+l.565 		if(g[u][x].w>0&&st[u]!=x&
+                                 &S[st[u]]==0)
+? 
+! Misplaced alignment tab character &.
+l.565 		if(g[u][x].w>0&&st[u]!=x&&
+                                  S[st[u]]==0)
+? 
+! Extra }, or forgotten $.
+l.584 }
+       
+? 
+! Misplaced alignment tab character &.
+l.616 	while(b<=n_x&
+                    &st[b])++b;
+? 
+! Misplaced alignment tab character &.
+l.616 	while(b<=n_x&&
+                     st[b])++b;
+? 
+! Misplaced alignment tab character &.
+l.658 bool on_found_edge(const edge &
+                                     e){
+? 
+! Misplaced alignment tab character &.
+l.677 		if(st[x]==x&
+                    &!match[x])pa[x]=0,S[x]=0,q_push(x);
+? 
+! Misplaced alignment tab character &.
+l.677 		if(st[x]==x&&
+                     !match[x])pa[x]=0,S[x]=0,q_push(x);
+? 
+! Misplaced alignment tab character &.
+l.684 				if(g[u][v].w>0&
+                         &st[u]!=st[v]){
+? 
+! Misplaced alignment tab character &.
+l.684 				if(g[u][v].w>0&&
+                          st[u]!=st[v]){
+? 
+! Misplaced alignment tab character &.
+l.692 			if(st[b]==b&
+                     &S[b]==1)d=min(d,lab[b]/2);
+? 
+! Misplaced alignment tab character &.
+l.692 			if(st[b]==b&&
+                      S[b]==1)d=min(d,lab[b]/2);
+? 
+! Misplaced alignment tab character &.
+l.694 			if(st[x]==x&
+                     &slack[x]){
+? 
+! Misplaced alignment tab character &.
+l.694 			if(st[x]==x&&
+                      slack[x]){
+? 
+! Misplaced alignment tab character &.
+l.711 			if(st[x]==x&
+                     &slack[x]&&st[slack[x]]!=x&&e_delta(g[slack[x]][x])==0)
+? 
+! Misplaced alignment tab character &.
+l.711 			if(st[x]==x&&
+                      slack[x]&&st[slack[x]]!=x&&e_delta(g[slack[x]][x])==0)
+? 
+! Misplaced alignment tab character &.
+l.711 			if(st[x]==x&&slack[x]&
+                               &st[slack[x]]!=x&&e_delta(g[slack[x]][x])==0)
+? 
+! Misplaced alignment tab character &.
+l.711 			if(st[x]==x&&slack[x]&&
+                                st[slack[x]]!=x&&e_delta(g[slack[x]][x])==0)
+? 
+! Misplaced alignment tab character &.
+l.711 			if(st[x]==x&&slack[x]&&st[slack[x]]!=x&
+                                                &e_delta(g[slack[x]][x])==0)
+? 
+! Misplaced alignment tab character &.
+l.711 			if(st[x]==x&&slack[x]&&st[slack[x]]!=x&&
+                                                 e_delta(g[slack[x]][x])==0)
+? 
+! Misplaced alignment tab character &.
+l.714 			if(st[b]==b&
+                     &S[b]==1&&lab[b]==0)expand_blossom(b);
+? 
+! Misplaced alignment tab character &.
+l.714 			if(st[b]==b&&
+                      S[b]==1&&lab[b]==0)expand_blossom(b);
+? 
+! Misplaced alignment tab character &.
+l.714 			if(st[b]==b&&S[b]==1&
+                              &lab[b]==0)expand_blossom(b);
+? 
+! Misplaced alignment tab character &.
+l.714 			if(st[b]==b&&S[b]==1&&
+                               lab[b]==0)expand_blossom(b);
+? 
+! Misplaced alignment tab character &.
+l.733 		if(match[u]&
+                    &match[u]<u)
+? 
+! Misplaced alignment tab character &.
+l.733 		if(match[u]&&
+                     match[u]<u)
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.746 \end{minted}
+                  
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.746 \end{minted}
+                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 540--747
+[]\OT1/cmr/m/n/8 cpp // N$[](\OML/cmm/m/it/8 butfastinpractice\OT1/cmr/m/n/8 )\
+OML/cmm/m/it/8 staticconstintINF \OT1/cmr/m/n/8 = \OML/cmm/m/it/8 INT[]AX\OT1/c
+mr/m/n/8 ; \OML/cmm/m/it/8 staticconstintN \OT1/cmr/m/n/8 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 540--747
+\OT1/cmr/m/n/8 514; \OML/cmm/m/it/8 structedge[]\OT1/cmr/m/n/8 ; \OML/cmm/m/it/
+8 intn; n[]\OT1/cmr/m/n/8 ; \OML/cmm/m/it/8 edgeg\OT1/cmr/m/n/8 [\OML/cmm/m/it/
+8 N \OMS/cmsy/m/n/8 ^^C
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 540--747
+\OT1/cmr/m/n/8 2][\OML/cmm/m/it/8 N \OMS/cmsy/m/n/8 ^^C \OT1/cmr/m/n/8 2]; \OML
+/cmm/m/it/8 intlab\OT1/cmr/m/n/8 [\OML/cmm/m/it/8 N \OMS/cmsy/m/n/8 ^^C \OT1/cm
+r/m/n/8 2]; \OML/cmm/m/it/8 intmatch\OT1/cmr/m/n/8 [\OML/cmm/m/it/8 N \OMS/cmsy
+/m/n/8 ^^C \OT1/cmr/m/n/8 2]\OML/cmm/m/it/8 ; slack\OT1/cmr/m/n/8 [\OML/cmm/m/i
+t/8 N \OMS/cmsy/m/n/8 ^^C \OT1/cmr/m/n/8 2]\OML/cmm/m/it/8 ; st\OT1/cmr/m/n/8 [
+\OML/cmm/m/it/8 N \OMS/cmsy/m/n/8 ^^C \OT1/cmr/m/n/8 2]\OML/cmm/m/it/8 ; pa\OT1
+/cmr/m/n/8 [\OML/cmm/m/it/8 N \OMS/cmsy/m/n/8 ^^C \OT1/cmr/m/n/8 2]; \OML/cmm/m
+/it/8 intflo[]rom\OT1/cmr/m/n/8 [\OML/cmm/m/it/8 N \OMS/cmsy/m/n/8 ^^C
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 540--747
+\OT1/cmr/m/n/8 2][\OML/cmm/m/it/8 N \OT1/cmr/m/n/8 + 1]\OML/cmm/m/it/8 ; S\OT1/
+cmr/m/n/8 [\OML/cmm/m/it/8 N \OMS/cmsy/m/n/8 ^^C \OT1/cmr/m/n/8 2]\OML/cmm/m/it
+/8 ; vis\OT1/cmr/m/n/8 [\OML/cmm/m/it/8 N \OMS/cmsy/m/n/8 ^^C \OT1/cmr/m/n/8 2]
+; \OML/cmm/m/it/8 vector < int > flo\OT1/cmr/m/n/8 [\OML/cmm/m/it/8 N \OMS/cmsy
+/m/n/8 ^^C \OT1/cmr/m/n/8 2]; \OML/cmm/m/it/8 queue < int >
+ []
+
+
+Overfull \hbox (13928.16995pt too wide) in paragraph at lines 540--747
+\OML/cmm/m/it/8 q\OT1/cmr/m/n/8 ; \OML/cmm/m/it/8 inte[]elta\OT1/cmr/m/n/8 (\OM
+L/cmm/m/it/8 constedgee\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 voidupdate[]lack\OT1/c
+mr/m/n/8 (\OML/cmm/m/it/8 intu; intx\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 voidset[]
+lack\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 intx\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 voidq
+[]ush\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 intx\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 void
+set[]t\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 intx; intb\OT1/cmr/m/n/8 )[]\OML/cmm/m/it
+/8 intget[]r\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 intb; intxr\OT1/cmr/m/n/8 )[]\OML/c
+mm/m/it/8 elsereturnpr\OT1/cmr/m/n/8 ; \OML/cmm/m/it/8 voidset[]atch\OT1/cmr/m/
+n/8 (\OML/cmm/m/it/8 intu; intv\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 voidaugment\OT
+1/cmr/m/n/8 (\OML/cmm/m/it/8 intu; intv\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 intget
+[]ca\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 intu; intv\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8
+ voidadd[]lossom\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 intu; intlca; intv\OT1/cmr/m/n/
+8 )[]\OML/cmm/m/it/8 voidexpand[]lossom\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 intb\OT1
+/cmr/m/n/8 )[]\OML/cmm/m/it/8 boolon[]ound[]dge\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 
+constedgee\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 boolmatching\OT1/cmr/m/n/8 ()[]\OML
+/cmm/m/it/8 pair <
+ []
+
+
+Overfull \hbox (2089.03564pt too wide) in paragraph at lines 540--747
+\OML/cmm/m/it/8 longlong; int > solve\OT1/cmr/m/n/8 ()[]\OML/cmm/m/it/8 voidadd
+[]dge\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 intui; intvi; intwi\OT1/cmr/m/n/8 )[]\OML/
+cmm/m/it/8 voidinit\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 int[]\OT1/cmr/m/n/8 )[]$ 
+ []
+
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.749 \begin{minted}
+                    {cpp}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.750 strongly_
+               connected scc;
+? 
+! Misplaced alignment tab character &.
+l.755 	if((x >> 31) &
+                      1) x = (~x) + n;
+? 
+! Misplaced alignment tab character &.
+l.756 	if((y >> 31) &
+                      1) y = (~y) + n;
+? 
+! Misplaced alignment tab character &.
+l.759 bool satisfy(vector<bool> &
+                                 res){
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.769 \end{minted}
+                  
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.769 \end{minted}
+                  
+? 
+
+Overfull \hbox (761.12192pt too wide) in paragraph at lines 749--770
+[]\OT1/cmr/m/n/8 cpp strongly$[]\OML/cmm/m/it/8 onnectedscc\OT1/cmr/m/n/8 ; \OM
+L/cmm/m/it/8 intn\OT1/cmr/m/n/8 ; \OML/cmm/m/it/8 == \OT1/cmr/m/n/8 = \OML/cmm/
+m/it/8 numberofclausesvoidinit\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 int[]\OT1/cmr/m/n
+/8 )[]\OML/cmm/m/it/8 intNOT\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 intx\OT1/cmr/m/n/8 
+)[]\OML/cmm/m/it/8 voidadd[]dge\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 intx; inty\OT1/c
+mr/m/n/8 )[]\OML/cmm/m/it/8 boolsatisfy\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 vector <
+
+ []
+
+
+Overfull \hbox (291.30954pt too wide) in paragraph at lines 749--770
+\OML/cmm/m/it/8 bool > res\OT1/cmr/m/n/8 )[]$ 
+ []
+
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.771 \begin{minted}
+                    {cpp}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.774 		bcc[p].push_
+                    back(x);
+? 
+! Extra }, or forgotten $.
+l.776 	}
+        
+? 
+! Misplaced alignment tab character &.
+l.777 	for(auto &
+                 i : gph[x]){
+? 
+! Extra }, or forgotten $.
+l.786 }
+       
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.787 \end{minted}
+                  
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.787 \end{minted}
+                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.787 \end{minted}
+                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.787 \end{minted}
+                  
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 771--788
+[]\OT1/cmr/m/n/8 cpp void color(int x, int p) if(p) bcc[p].push$[]\OML/cmm/m/it
+/8 ack\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 x\OT1/cmr/m/n/8 ); \OML/cmm/m/it/8 cmp\OT
+1/cmr/m/n/8 [\OML/cmm/m/it/8 x\OT1/cmr/m/n/8 ]\OML/cmm/m/it/8 :push[]ack\OT1/cm
+r/m/n/8 (\OML/cmm/m/it/8 p\OT1/cmr/m/n/8 ); \OML/cmm/m/it/8 for\OT1/cmr/m/n/8 (
+\OML/cmm/m/it/8 autoi \OT1/cmr/m/n/8 :
+ []
+
+
+Overfull \hbox (61.1003pt too wide) in paragraph at lines 771--788
+\OML/cmm/m/it/8 gph\OT1/cmr/m/n/8 [\OML/cmm/m/it/8 x\OT1/cmr/m/n/8 ])[]$ 
+ []
+
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.789 \begin{minted}
+                    {cpp}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.797 	bool is_
+               left = (p->l == x);
+? 
+! Misplaced alignment tab character &.
+l.800 	if(x->p &
+                & x->p->l == p) x->p->l = x;
+? 
+! Misplaced alignment tab character &.
+l.800 	if(x->p &&
+                  x->p->l == p) x->p->l = x;
+? 
+! Misplaced alignment tab character &.
+l.801 	if(x->p &
+                & x->p->r == p) x->p->r = x;
+? 
+! Misplaced alignment tab character &.
+l.801 	if(x->p &&
+                  x->p->r == p) x->p->r = x;
+? 
+! Extra }, or forgotten $.
+l.821 }
+       
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.904 \end{minted}
+                  
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.904 \end{minted}
+                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.904 \end{minted}
+                  
+? 
+
+Overfull \hbox (266.96565pt too wide) in paragraph at lines 789--905
+\OML/cmm/m/it/8 x\OT1/cmr/m/n/8 ; \OML/cmm/m/it/8 if\OT1/cmr/m/n/8 (\OML/cmm/m/
+it/8 is[]eft\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 else[]pull\OT1/cmr/m/n/8 (\OML/cm
+m/m/it/8 p\OT1/cmr/m/n/8 ); \OML/cmm/m/it/8 ==ifthere[]ssomethingtopulluppull\O
+T1/cmr/m/n/8 (\OML/cmm/m/it/8 x\OT1/cmr/m/n/8 ); \OML/cmm/m/it/8 if\OT1/cmr/m/n
+/8 (!\OML/cmm/m/it/8 x\OMS/cmsy/m/n/8 ^^@ \OML/cmm/m/it/8 >
+ []
+
+
+Overfull \hbox (147.26974pt too wide) in paragraph at lines 789--905
+\OML/cmm/m/it/8 p\OT1/cmr/m/n/8 )\OML/cmm/m/it/8 root \OT1/cmr/m/n/8 = \OML/cmm
+/m/it/8 x\OT1/cmr/m/n/8 ; \OML/cmm/m/it/8 ==IFYOUARESPLAYTREEif\OT1/cmr/m/n/8 (
+\OML/cmm/m/it/8 p\OMS/cmsy/m/n/8 ^^@ \OML/cmm/m/it/8 > pp\OT1/cmr/m/n/8 )[]\OML
+/cmm/m/it/8 voidsplay\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 node \OMS/cmsy/m/n/8 ^^C
+ []
+
+
+Overfull \hbox (142.07634pt too wide) in paragraph at lines 789--905
+\OML/cmm/m/it/8 x\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 voidaccess\OT1/cmr/m/n/8 (\O
+ML/cmm/m/it/8 node \OMS/cmsy/m/n/8 ^^C
+ []
+
+
+Overfull \hbox (797.37198pt too wide) in paragraph at lines 789--905
+\OML/cmm/m/it/8 x\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 node \OMS/cmsy/m/n/8 ^^C
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 789--905
+\OML/cmm/m/it/8 root\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 node \OMS/cmsy/m/n/8 ^^C \O
+ML/cmm/m/it/8 x\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 node \OMS/cmsy/m/n/8 ^^C \OML/
+cmm/m/it/8 par\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 node \OMS/cmsy/m/n/8 ^^C
+ []
+
+
+Overfull \hbox (53.26189pt too wide) in paragraph at lines 789--905
+\OML/cmm/m/it/8 x\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 node \OMS/cmsy/m/n/8 ^^C
+ []
+
+
+Overfull \hbox (22.27446pt too wide) in paragraph at lines 789--905
+\OML/cmm/m/it/8 lca\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 node \OMS/cmsy/m/n/8 ^^C \OM
+L/cmm/m/it/8 s; node \OMS/cmsy/m/n/8 ^^C \OML/cmm/m/it/8 t\OT1/cmr/m/n/8 )[]\OM
+L/cmm/m/it/8 voidlink\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 node \OMS/cmsy/m/n/8 ^^C
+ []
+
+
+Overfull \hbox (137.78139pt too wide) in paragraph at lines 789--905
+\OML/cmm/m/it/8 par; node \OMS/cmsy/m/n/8 ^^C \OML/cmm/m/it/8 son\OT1/cmr/m/n/8
+ )[]\OML/cmm/m/it/8 voidcut\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 node \OMS/cmsy/m/n/8
+ ^^C
+ []
+
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.906 \begin{minted}
+                    {cpp}
+? 
+! Misplaced alignment tab character &.
+l.911 bool cmp(int &
+                    a, int &b){ return pi(cost[a], a) < pi(cost[b], b); }
+? 
+! Misplaced alignment tab character &.
+l.911 bool cmp(int &a, int &
+                            b){ return pi(cost[a], a) < pi(cost[b], b); }
+? 
+! Misplaced alignment tab character &.
+l.913 ...nt s, int e, vector<int> v, vector<int> &
+                                                  must_mst, vector<int> &may...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.913 ... int e, vector<int> v, vector<int> &must_
+                                                  mst, vector<int> &maybe_mst){
+
+? 
+! Misplaced alignment tab character &.
+l.913 ...> v, vector<int> &must_mst, vector<int> &
+                                                  maybe_mst){
+? 
+! Misplaced alignment tab character &.
+l.917 	for(auto &
+                 i : v) if(disj.uni(st[i], ed[i], snapshot)) must_mst.push_b...
+
+? 
+! Misplaced alignment tab character &.
+l.919 	for(auto &
+                 i : must_mst) disj.uni(st[i], ed[i], snapshot);
+? 
+! Misplaced alignment tab character &.
+l.920 	for(auto &
+                 i : v) if(disj.uni(st[i], ed[i], snapshot)) maybe_mst.push_...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.923 
+      
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 913--923
+[]\OT1/cmr/m/n/8 void con-tract(int s, int e, vec-tor<int> v, vec-tor<int> must
+$[]\OML/cmm/m/it/8 st; vector < int >
+ []
+
+
+Overfull \hbox (1008.52043pt too wide) in paragraph at lines 913--923
+\OML/cmm/m/it/8 maybe[]st\OT1/cmr/m/n/8 )[]$ 
+ []
+
+! Misplaced alignment tab character &.
+l.932 		for(auto &
+                  i : v) minv = min(minv, cost[i]);
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.938 	vector<int> must_
+                        mst, maybe_mst;
+? 
+! Misplaced alignment tab character &.
+l.946 	for(auto &
+                 i : must_mst) lcv += cost[i], disj.uni(st[i], ed[i], snapsh...
+
+? 
+! Misplaced alignment tab character &.
+l.957 	for(auto &
+                 i : must_mst) rcv += cost[i], disj.uni(st[i], ed[i], snapsh...
+
+? 
+! Extra }, or forgotten $.
+l.961 }
+       
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.962 
+      
+? 
+
+Underfull \hbox (badness 1571) in paragraph at lines 924--962
+\OML/cmm/m/it/8 m \OT1/cmr/m/n/8 + 1; \OML/cmm/m/it/8 i <\OT1/cmr/m/n/8 = \OML/
+cmm/m/it/8 e\OT1/cmr/m/n/8 ; \OML/cmm/m/it/8 i \OT1/cmr/m/n/8 + +)[]\OML/cmm/m/
+it/8 vector <
+ []
+
+
+Underfull \hbox (badness 1184) in paragraph at lines 924--962
+\OML/cmm/m/it/8 pi > snapshot\OT1/cmr/m/n/8 ; \OML/cmm/m/it/8 contract\OT1/cmr/
+m/n/8 (\OML/cmm/m/it/8 s; m; lv; must[]st; maybe[]st\OT1/cmr/m/n/8 ); \OML/cmm/
+m/it/8 lintlcv \OT1/cmr/m/n/8 = \OML/cmm/m/it/8 cv\OT1/cmr/m/n/8 ; \OML/cmm/m/i
+t/8 for\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 autoi \OT1/cmr/m/n/8 : \OML/cmm/m/it/8 m
+ust[]st\OT1/cmr/m/n/8 )\OML/cmm/m/it/8 lcv\OT1/cmr/m/n/8 + =
+ []
+
+
+Overfull \hbox (103.95923pt too wide) in paragraph at lines 924--962
+\OML/cmm/m/it/8 cost\OT1/cmr/m/n/8 [\OML/cmm/m/it/8 i\OT1/cmr/m/n/8 ]\OML/cmm/m
+/it/8 ; disj:uni\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 st\OT1/cmr/m/n/8 [\OML/cmm/m/it
+/8 i\OT1/cmr/m/n/8 ]\OML/cmm/m/it/8 ; ed\OT1/cmr/m/n/8 [\OML/cmm/m/it/8 i\OT1/c
+mr/m/n/8 ]\OML/cmm/m/it/8 ; snapshot\OT1/cmr/m/n/8 ); \OML/cmm/m/it/8 solve\OT1
+/cmr/m/n/8 (\OML/cmm/m/it/8 s; m; maybe[]st; lcv\OT1/cmr/m/n/8 ); \OML/cmm/m/it
+/8 disj:revert\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 snapshot\OT1/cmr/m/n/8 ); \OML/cm
+m/m/it/8 must[]st:clear\OT1/cmr/m/n/8 (); \OML/cmm/m/it/8 maybe[]st:clear\OT1/c
+mr/m/n/8 (); \OML/cmm/m/it/8 for\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 inti \OT1/cmr/m
+/n/8 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 924--962
+\OML/cmm/m/it/8 m \OT1/cmr/m/n/8 + 1; \OML/cmm/m/it/8 i <\OT1/cmr/m/n/8 = \OML/
+cmm/m/it/8 e\OT1/cmr/m/n/8 ; \OML/cmm/m/it/8 i \OT1/cmr/m/n/8 + +)\OML/cmm/m/it
+/8 chk\OT1/cmr/m/n/8 [\OML/cmm/m/it/8 qr\OT1/cmr/m/n/8 [\OML/cmm/m/it/8 i\OT1/c
+mr/m/n/8 ]\OML/cmm/m/it/8 :first\OT1/cmr/m/n/8 ] + +; \OML/cmm/m/it/8 for\OT1/c
+mr/m/n/8 (\OML/cmm/m/it/8 inti \OT1/cmr/m/n/8 = \OML/cmm/m/it/8 s\OT1/cmr/m/n/8
+ ; \OML/cmm/m/it/8 i <\OT1/cmr/m/n/8 = \OML/cmm/m/it/8 m\OT1/cmr/m/n/8 ; \OML/c
+mm/m/it/8 i \OT1/cmr/m/n/8 +
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 924--962
+\OT1/cmr/m/n/8 +)[]\OML/cmm/m/it/8 lintrcv \OT1/cmr/m/n/8 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 924--962
+\OML/cmm/m/it/8 cv\OT1/cmr/m/n/8 ; \OML/cmm/m/it/8 contract\OT1/cmr/m/n/8 (\OML
+/cmm/m/it/8 m \OT1/cmr/m/n/8 + 1\OML/cmm/m/it/8 ; e; rv; must[]st; maybe[]st\OT
+1/cmr/m/n/8 ); \OML/cmm/m/it/8 for\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 autoi \OT1/cm
+r/m/n/8 : \OML/cmm/m/it/8 must[]st\OT1/cmr/m/n/8 )\OML/cmm/m/it/8 rcv\OT1/cmr/m
+/n/8 + =
+ []
+
+
+Underfull \hbox (badness 4217) in paragraph at lines 924--962
+\OML/cmm/m/it/8 cost\OT1/cmr/m/n/8 [\OML/cmm/m/it/8 i\OT1/cmr/m/n/8 ]\OML/cmm/m
+/it/8 ; disj:uni\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 st\OT1/cmr/m/n/8 [\OML/cmm/m/it
+/8 i\OT1/cmr/m/n/8 ]\OML/cmm/m/it/8 ; ed\OT1/cmr/m/n/8 [\OML/cmm/m/it/8 i\OT1/c
+mr/m/n/8 ]\OML/cmm/m/it/8 ; snapshot\OT1/cmr/m/n/8 ); \OML/cmm/m/it/8 solve\OT1
+/cmr/m/n/8 (\OML/cmm/m/it/8 m \OT1/cmr/m/n/8 + 1\OML/cmm/m/it/8 ; e; maybe[]st;
+ rcv\OT1/cmr/m/n/8 ); \OML/cmm/m/it/8 disj:revert\OT1/cmr/m/n/8 (\OML/cmm/m/it/
+8 snapshot\OT1/cmr/m/n/8 ); \OML/cmm/m/it/8 for\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 
+inti \OT1/cmr/m/n/8 =
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.976 	for(int i=0; i<m; i++) if(!chk[i]) ve.push_
+                                                  back(i);
+? 
+! Extra }, or forgotten $.
+l.978 }
+       
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.979 \end{minted}
+                  
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.979 \end{minted}
+                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.979 \end{minted}
+                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.979 \end{minted}
+                  
+? 
+
+Underfull \hbox (badness 5147) in paragraph at lines 963--980
+[]\OT1/cmr/m/n/8 int main() scanf("vector<int> ve; for(int i=0; i<m; i++) scanf
+(" scanf("for(int i=0; i<q;
+ []
+
+
+Underfull \hbox (badness 7814) in paragraph at lines 963--980
+\OT1/cmr/m/n/8 i++) scanf("qr[i].first--; chk[qr[i].first]++;  disj.init(n); fo
+r(int i=0; i<m; i++) if(!chk[i])
+ []
+
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.981 \begin{minted}
+                    {cpp}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.994 void add_
+               edge(int x, int y) { E[x].push_back(y); }
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1028 \end{minted}
+                   
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1028 \end{minted}
+                   
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 987--1029
+[]\OT1/cmr/m/n/8 void clear(int n)  cs = 0; for(int i=0;i<=n;i++)  par[i] = val
+[i] = sdom[i] =
+ []
+
+
+Underfull \hbox (badness 5832) in paragraph at lines 987--1029
+\OT1/cmr/m/n/8 rp[i] = dom[i] = S[i] = RS[i] = 0; E[i].clear(); RE[i].clear(); 
+rdom[i].clear();   void
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 987--1029
+\OT1/cmr/m/n/8 add$[]\OML/cmm/m/it/8 dge\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 intx; i
+nty\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 voidUnion\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 i
+ntx; inty\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 intFind\OT1/cmr/m/n/8 (\OML/cmm/m/it
+/8 intx; intc \OT1/cmr/m/n/8 =
+ []
+
+
+Overfull \hbox (894.51459pt too wide) in paragraph at lines 987--1029
+\OT1/cmr/m/n/8 0)[]\OML/cmm/m/it/8 voiddfs\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 intx\
+OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 intsolve\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 ints; 
+int \OMS/cmsy/m/n/8 ^^C
+ []
+
+
+Overfull \hbox (1022.79497pt too wide) in paragraph at lines 987--1029
+\OML/cmm/m/it/8 up\OT1/cmr/m/n/8 )[]$ 
+ []
+
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1030 \begin{minted}
+                     {cpp}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1031 int minimum_
+                   cut_phase(int n, int &s, int &t, vector<vector<int>> &adj...
+
+? 
+! Misplaced alignment tab character &.
+l.1031 int minimum_cut_phase(int n, int &
+                                         s, int &t, vector<vector<int>> &adj...
+
+? 
+! Misplaced alignment tab character &.
+l.1031 int minimum_cut_phase(int n, int &s, int &
+                                                 t, vector<vector<int>> &adj...
+
+? 
+! Misplaced alignment tab character &.
+l.1031 ...n, int &s, int &t, vector<vector<int>> &
+                                                  adj, vector<int> vis){
+? 
+! Misplaced alignment tab character &.
+l.1037 			if(!vis[i] &
+                      & dist[i] > cur){
+? 
+! Misplaced alignment tab character &.
+l.1037 			if(!vis[i] &&
+                        dist[i] > cur){
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1071 \end{minted}
+                   
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1071 \end{minted}
+                   
+? 
+
+Underfull \hbox (badness 1558) in paragraph at lines 1030--1072
+[]\OT1/cmr/m/n/8 cpp int minimum$[]\OML/cmm/m/it/8 ut[]hase\OT1/cmr/m/n/8 (\OML
+/cmm/m/it/8 intn; ints; intt; vector < vector < int >> adj; vector < int >
+ []
+
+
+Overfull \hbox (880.51181pt too wide) in paragraph at lines 1030--1072
+\OML/cmm/m/it/8 vis\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 intsolve\OT1/cmr/m/n/8 (\O
+ML/cmm/m/it/8 intn; vector <
+ []
+
+
+Overfull \hbox (647.90369pt too wide) in paragraph at lines 1030--1072
+\OML/cmm/m/it/8 vector < int >> adj\OT1/cmr/m/n/8 )[]$ 
+ []
+
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1074 \begin{minted}
+                     {cpp}
+? 
+! Misplaced alignment tab character &.
+l.1079 void dmst(vector<elist> &
+                                g, vector<int>& res) {
+? 
+! Misplaced alignment tab character &.
+l.1079 void dmst(vector<elist> &g, vector<int>&
+                                                res) {
+? 
+! Misplaced alignment tab character &.
+l.1089 				to[i] = &
+                    g[i][j];
+? 
+! Misplaced alignment tab character &.
+l.1098 		while (to[x]->to > 0 &
+                               & u[to[x]->to] == 0) {
+? 
+! Misplaced alignment tab character &.
+l.1098 		while (to[x]->to > 0 &&
+                                 u[to[x]->to] == 0) {
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1101 			order.push_
+                     back(x);
+? 
+! Extra }, or forgotten $.
+l.1102 		}
+          
+? 
+! Extra }, or forgotten $.
+l.1139 	}
+         
+? 
+! Extra }, or forgotten $.
+l.1141 }
+        
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1142 \end{minted}
+                   
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1142 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.1142 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.1142 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.1142 \end{minted}
+                   
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 1073--1143
+\OT1/cmr/m/n/8 1; \OML/cmm/m/it/8 vector < int > nw[]d\OT1/cmr/m/n/8 (\OML/cmm/
+m/it/8 n\OT1/cmr/m/n/8 ); \OML/cmm/m/it/8 for\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 in
+tj \OT1/cmr/m/n/8 = 1; \OML/cmm/m/it/8 j < n\OT1/cmr/m/n/8 ; + + \OML/cmm/m/it/
+8 j\OT1/cmr/m/n/8 )\OML/cmm/m/it/8 nw[]d\OT1/cmr/m/n/8 [\OML/cmm/m/it/8 j\OT1/c
+mr/m/n/8 ] = \OML/cmm/m/it/8 nw[]d\OT1/cmr/m/n/8 [\OML/cmm/m/it/8 j \OMS/cmsy/m
+/n/8 ^^@
+ []
+
+
+Overfull \hbox (794.8881pt too wide) in paragraph at lines 1073--1143
+\OML/cmm/m/it/8 j\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 dmst\OT1/cmr/m/n/8 (\OML/cmm
+/m/it/8 gn; res\OT1/cmr/m/n/8 ); \OML/cmm/m/it/8 set <
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1073--1143
+\OML/cmm/m/it/8 int > used[]\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 res:begin\OT1/cmr/m
+/n/8 ()\OML/cmm/m/it/8 ; res:end\OT1/cmr/m/n/8 ()); \OML/cmm/m/it/8 for\OT1/cmr
+/m/n/8 (\OML/cmm/m/it/8 intj \OT1/cmr/m/n/8 = 0; \OML/cmm/m/it/8 j < cycle:size
+\OT1/cmr/m/n/8 (); + +
+ []
+
+
+Overfull \hbox (392.44559pt too wide) in paragraph at lines 1073--1143
+\OML/cmm/m/it/8 j\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 for\OT1/cmr/m/n/8 (\OML/cmm/
+m/it/8 inti \OT1/cmr/m/n/8 =
+ []
+
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1144 \begin{minted}
+                     {cpp}
+? 
+! Misplaced alignment tab character &.
+l.1152 	void solve(vector<pi> &
+                               E, int N, int M){
+? 
+! Misplaced alignment tab character &.
+l.1154 		auto update = [&
+                         ](int u){ for(X[u] = 1; C[u][X[u]]; X[u]++); };
+? 
+! Misplaced alignment tab character &.
+l.1155 		auto color = [&
+                        ](int u, int v, int c){
+? 
+! Misplaced alignment tab character &.
+l.1164 		auto flip = [&
+                       ](int u, int c1, int c2){
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1178 				L.emplace_
+                     back(v, d = X[v]);
+? 
+! Extra }, or forgotten $.
+l.1183 			}
+           
+? 
+! Misplaced alignment tab character &.
+l.1187 					for(a = (int)L.size()-2; a >= 0 &
+                                             & L[a].second != c; a--);
+? 
+! Misplaced alignment tab character &.
+l.1187 					for(a = (int)L.size()-2; a >= 0 &&
+                                               L[a].second != c; a--);
+? 
+! Extra }, or forgotten $.
+l.1191 		}
+          
+? 
+! Extra }, or forgotten $.
+l.1192 	}
+         
+? 
+! Extra }, or forgotten $.
+l.1193 }
+        
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1194 \end{minted}
+                   
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1194 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.1194 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.1194 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.1194 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.1194 \end{minted}
+                   
+? 
+
+Overfull \hbox (306.87204pt too wide) in paragraph at lines 1144--1195
+\OML/cmm/m/it/8 C\OT1/cmr/m/n/8 [\OML/cmm/m/it/8 u\OT1/cmr/m/n/8 ][\OML/cmm/m/i
+t/8 d\OT1/cmr/m/n/8 ]; \OML/cmm/m/it/8 if\OT1/cmr/m/n/8 (!\OML/cmm/m/it/8 G\OT1
+/cmr/m/n/8 [\OML/cmm/m/it/8 u\OT1/cmr/m/n/8 ][\OML/cmm/m/it/8 v\OT1/cmr/m/n/8 0
+])[]$ 
+ []
+
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1198 \begin{minted}
+                     {cpp}
+? 
+! Misplaced alignment tab character &.
+l.1201 void init(vector<string> &
+                                 v){
+? 
+! Misplaced alignment tab character &.
+l.1206 	for(auto &
+                  i : v){
+? 
+! Misplaced alignment tab character &.
+l.1208 		for(auto &
+                   j : i){
+? 
+! Misplaced alignment tab character &.
+l.1224 				while(p &
+                    & !trie[p][i]) p = fail[p];
+? 
+! Misplaced alignment tab character &.
+l.1224 				while(p &&
+                      !trie[p][i]) p = fail[p];
+? 
+! Misplaced alignment tab character &.
+l.1233 bool query(string &
+                          s){
+? 
+! Misplaced alignment tab character &.
+l.1235 	for(auto &
+                  i : s){
+? 
+! Misplaced alignment tab character &.
+l.1236 		while(p &
+                  & !trie[p][i]) p = fail[p];
+? 
+! Misplaced alignment tab character &.
+l.1236 		while(p &&
+                    !trie[p][i]) p = fail[p];
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1242 \end{minted}
+                   
+? 
+
+LaTeX Warning: Reference `LastPage' on page 3 undefined on input line 1243.
+
+[3]
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1244 \begin{minted}
+                     {cpp}
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1289 \end{minted}
+                   
+? 
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1291 \begin{minted}
+                     {cpp}
+? 
+! Misplaced alignment tab character &.
+l.1304 		while(i - cur - 1 >= 0 &
+                                 & i + cur + 1 < 2*n-1 && aux[i-cur-1] == au...
+
+? 
+! Misplaced alignment tab character &.
+l.1304 		while(i - cur - 1 >= 0 &&
+                                   i + cur + 1 < 2*n-1 && aux[i-cur-1] == au...
+
+? 
+! Misplaced alignment tab character &.
+l.1304 ... - cur - 1 >= 0 && i + cur + 1 < 2*n-1 &
+                                                  & aux[i-cur-1] == aux[i+cu...
+
+? 
+! Misplaced alignment tab character &.
+l.1304 ...- cur - 1 >= 0 && i + cur + 1 < 2*n-1 &&
+                                                   aux[i-cur-1] == aux[i+cur...
+
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1314 \end{minted}
+                   
+? 
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1318 \begin{minted}
+                     {cpp}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1322 	int mem[5 * N]; int* mem_
+                                 pt = mem;
+? 
+! Misplaced alignment tab character &.
+l.1330 		for(int i=0; i<n+10 &
+                              & i < 7 * N / 10; i++) A[i] = B[i] = 0;
+? 
+! Misplaced alignment tab character &.
+l.1330 		for(int i=0; i<n+10 &&
+                                i < 7 * N / 10; i++) A[i] = B[i] = 0;
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1344 
+       
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 1317--1344
+[]\OT1/cmr/m/n/8 Should be []\OT1/cmr/bx/n/8 re-vised[]\OT1/cmr/m/n/8 .cpp clas
+s Suf-fixAr-ray  pub-lic: int A[7 * N / 10],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1317--1344
+\OT1/cmr/m/n/8 B[7 * N / 10], cnt[N + 2], SAV[N]; int mem[5 * N]; int* mem$[]\O
+ML/cmm/m/it/8 t \OT1/cmr/m/n/8 =
+ []
+
+
+Overfull \hbox (503.97664pt too wide) in paragraph at lines 1317--1344
+\OML/cmm/m/it/8 mem\OT1/cmr/m/n/8 ; \OML/cmm/m/it/8 voidclear\OT1/cmr/m/n/8 (\O
+ML/cmm/m/it/8 intn\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 inlineint \OMS/cmsy/m/n/8 ^
+^C
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1317--1344
+\OML/cmm/m/it/8 mloc\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 size[]sz\OT1/cmr/m/n/8 )[]\
+OML/cmm/m/it/8 voidrsort\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 int \OMS/cmsy/m/n/8 ^^C
+ \OML/cmm/m/it/8 a; int \OMS/cmsy/m/n/8 ^^C \OML/cmm/m/it/8 b; int \OMS/cmsy/m/
+n/8 ^^C
+ []
+
+
+Overfull \hbox (421.05202pt too wide) in paragraph at lines 1317--1344
+\OML/cmm/m/it/8 dat; intn; intk\OT1/cmr/m/n/8 )[]$ 
+ []
+
+! You can't use `macro parameter character #' in vertical mode.
+l.1345 #
+        define I(x) ((x)%3==1)?((x)/3):((x)/3+num1)
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.1346 #
+        define I2(x) (x<num1)?(3*x+1):(3*(x-num1)+2)
+? 
+! Misplaced alignment tab character &.
+l.1350 ...rn str[x] < str[y] || str[x] == str[y] &
+                                                  & A[I(x + 1)] < A[I(y + 1)];
+? 
+! Misplaced alignment tab character &.
+l.1350 ...n str[x] < str[y] || str[x] == str[y] &&
+                                                   A[I(x + 1)] < A[I(y + 1)];
+? 
+! Misplaced alignment tab character &.
+l.1353 ...rn str[x] < str[y] || str[x] == str[y] &
+                                                  & cmp(x + 1, y + 1, str, A...
+
+? 
+! Misplaced alignment tab character &.
+l.1353 ...n str[x] < str[y] || str[x] == str[y] &&
+                                                   cmp(x + 1, y + 1, str, A,...
+
+? 
+! Extra }, or forgotten \endgroup.
+l.1385 	}
+         
+? 
+! Extra }, or forgotten \endgroup.
+l.1386 }
+        sa;
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1387 \end{minted}
+                   
+? 
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1390 \begin{minted}
+                     {cpp}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1438 vector<pi> minimum_
+                          partition(int n){ // (odd min, even min)
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1459 \end{minted}
+                   
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1459 \end{minted}
+                   
+? 
+
+Overfull \hbox (1777.13411pt too wide) in paragraph at lines 1390--1460
+\OT1/cmr/m/n/8 minimum$[]\OML/cmm/m/it/8 artition\OT1/cmr/m/n/8 (\OML/cmm/m/it/
+8 intn\OT1/cmr/m/n/8 )[]$ 
+ []
+
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1461 \begin{minted}
+                     {cpp}
+? 
+! Misplaced alignment tab character &.
+l.1468 	while(py <= m &
+                       & nxt[px][py] != 2) py++;
+? 
+! Misplaced alignment tab character &.
+l.1468 	while(py <= m &&
+                         nxt[px][py] != 2) py++;
+? 
+! Misplaced alignment tab character &.
+l.1470 	while(px < 2 * n &
+                          & py < m){
+? 
+! Misplaced alignment tab character &.
+l.1470 	while(px < 2 * n &&
+                            py < m){
+? 
+! Misplaced alignment tab character &.
+l.1482 	while(px < 2 * n &
+                          & nxt[px+1][py] == 3){
+? 
+! Misplaced alignment tab character &.
+l.1482 	while(px < 2 * n &&
+                            nxt[px+1][py] == 3){
+? 
+! Misplaced alignment tab character &.
+l.1490 	while(y != 0 &
+                      & x != e){
+? 
+! Misplaced alignment tab character &.
+l.1490 	while(y != 0 &&
+                        x != e){
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.1500 	s1 = "#
+               " + a + a;
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.1501 	s1 = '#
+               ' + b;
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1533 \end{minted}
+                   
+? 
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1536 \begin{minted}
+                     {cpp}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1537 namespace cover_
+                       2d{
+? 
+! Misplaced alignment tab character &.
+l.1543 	bool in(const Circle&
+                              c, Point p){ return dist(c.p, p) < c.r + eps; }
+? 
+! Misplaced alignment tab character &.
+l.1565 					else if(a2 > 0 &
+                            & (l.r<0||area2(pq, c.p-p[i]) > area2(pq, l.p-p[...
+
+? 
+! Misplaced alignment tab character &.
+l.1565 					else if(a2 > 0 &&
+                              (l.r<0||area2(pq, c.p-p[i]) > area2(pq, l.p-p[...
+
+? 
+! Misplaced alignment tab character &.
+l.1566 					else if(a2 < 0 &
+                            & (r.r<0||area2(pq, c.p-p[i]) < area2(pq, r.p-p[...
+
+? 
+! Misplaced alignment tab character &.
+l.1566 					else if(a2 < 0 &&
+                              (r.r<0||area2(pq, c.p-p[i]) < area2(pq, r.p-p[...
+
+? 
+! Misplaced alignment tab character &.
+l.1568 				if(l.r<0&
+                    &r.r<0) c = ans;
+? 
+! Misplaced alignment tab character &.
+l.1568 				if(l.r<0&&
+                     r.r<0) c = ans;
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1577 
+       
+? 
+
+Overfull \hbox (4217.35883pt too wide) in paragraph at lines 1536--1577
+[]\OT1/cmr/m/n/8 cpp names-pace cover$[]\OML/cmm/m/it/8 d[]\OT1/cmr/m/n/8 ;$ 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1578 namespace cover_
+                       3d{
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1612 \end{minted}
+                   
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1612 \end{minted}
+                   
+? 
+
+Overfull \hbox (1962.81287pt too wide) in paragraph at lines 1578--1613
+[]\OT1/cmr/m/n/8 namespace cover$[]\OML/cmm/m/it/8 d[]\OT1/cmr/m/n/8 ;$ 
+ []
+
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1614 \begin{minted}
+                     {cpp}
+? 
+! Misplaced alignment tab character &.
+l.1619 	vec3 operator*(const vec3&
+                                   v) const{ return vec3(y*v.z-z*v.y, z*v.x-...
+
+? 
+! Misplaced alignment tab character &.
+l.1620 	vec3 operator-(const vec3&
+                                   v) const{ return vec3(x-v.x, y-v.y, z-v.z...
+
+? 
+! Misplaced alignment tab character &.
+l.1622 	ll dot(const vec3 &
+                           v) const{ return x*v.x+y*v.y+z*v.z; }
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1639 face make_
+                 face(int i, int j, int k, int ii, vector<vec3> &A){ // p^T ...
+
+? 
+! Misplaced alignment tab character &.
+l.1639 ... i, int j, int k, int ii, vector<vec3> &
+                                                  A){ // p^T * norm < disc
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1650 
+       
+? 
+
+Overfull \hbox (753.03162pt too wide) in paragraph at lines 1639--1650
+[]\OT1/cmr/m/n/8 face make$[]\OML/cmm/m/it/8 ace\OT1/cmr/m/n/8 (\OML/cmm/m/it/8
+ inti; intj; intk; intii; vector < vec\OT1/cmr/m/n/8 3 \OML/cmm/m/it/8 > A\OT1/
+cmr/m/n/8 )[]$ 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1651 vector<face> get_
+                        hull(vector<vec3> &A){
+? 
+! Misplaced alignment tab character &.
+l.1651 vector<face> get_hull(vector<vec3> &
+                                           A){
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1681 \end{minted}
+                   
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1681 \end{minted}
+                   
+? 
+
+Overfull \hbox (2458.43619pt too wide) in paragraph at lines 1651--1682
+[]\OT1/cmr/m/n/8 vector<face> get$[]\OML/cmm/m/it/8 ull\OT1/cmr/m/n/8 (\OML/cmm
+/m/it/8 vector < vec\OT1/cmr/m/n/8 3 \OML/cmm/m/it/8 > A\OT1/cmr/m/n/8 )[]$ 
+ []
+
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1683 \begin{minted}
+                     {cpp}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1684 using line_
+                  t = double;
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1686 
+       
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1688 	line_
+             t m, b;
+? 
+! Misplaced alignment tab character &.
+l.1690 	bool operator<(const Line&
+                                   rhs) const {
+? 
+! Extra }, or forgotten $.
+l.1697 }
+        ;
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1698 
+       
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 1687--1698
+[]\OT1/cmr/m/n/8 struct Line  line$[]\OML/cmm/m/it/8 m; b\OT1/cmr/m/n/8 ; \OML/
+cmm/m/it/8 mutablefunction < constLine \OMS/cmsy/m/n/8 ^^C \OT1/cmr/m/n/8 () \O
+ML/cmm/m/it/8 > succ\OT1/cmr/m/n/8 ; \OML/cmm/m/it/8 booloperator <
+ []
+
+
+Overfull \hbox (178.37906pt too wide) in paragraph at lines 1687--1698
+\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 constLinerhs\OT1/cmr/m/n/8 )\OML/cmm/m/it/8 con
+st[]\OT1/cmr/m/n/8 ;$ 
+ []
+
+! Misplaced alignment tab character &.
+l.1704 			return y->m == z->m &
+                               & y->b <= z->b;
+? 
+! Misplaced alignment tab character &.
+l.1704 			return y->m == z->m &&
+                                 y->b <= z->b;
+? 
+! Misplaced alignment tab character &.
+l.1707 		if (z == end()) return y->m == x->m &
+                                              & y->b <= x->b;
+? 
+! Misplaced alignment tab character &.
+l.1707 		if (z == end()) return y->m == x->m &&
+                                                y->b <= x->b;
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1710 	void insert_
+                    line(line_t m, line_t b) {
+? 
+! Misplaced alignment tab character &.
+l.1712 ... = [=] { return next(y) == end() ? 0 : &
+                                                  *next(y); };
+? 
+! Misplaced alignment tab character &.
+l.1714 		while (next(y) != end() &
+                                  & bad(next(y))) erase(next(y));
+? 
+! Misplaced alignment tab character &.
+l.1714 		while (next(y) != end() &&
+                                    bad(next(y))) erase(next(y));
+? 
+! Misplaced alignment tab character &.
+l.1715 		while (y != begin() &
+                              & bad(prev(y))) erase(prev(y));
+? 
+! Misplaced alignment tab character &.
+l.1715 		while (y != begin() &&
+                                bad(prev(y))) erase(prev(y));
+? 
+! Extra }, or forgotten $.
+l.1721 }
+        H;
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1722 \end{minted}
+                   
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1722 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.1722 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.1722 \end{minted}
+                   
+? 
+
+Underfull \hbox (badness 4595) in paragraph at lines 1699--1723
+[]\OT1/cmr/m/n/8 struct Hull-Dy-namic : pub-lic mul-ti-set<Line>  // will main-
+tain up-per hull for max-i-mum
+ []
+
+
+Underfull \hbox (badness 1603) in paragraph at lines 1699--1723
+\OT1/cmr/m/n/8 bool bad(iterator y)  auto z = next(y); if (y == be-gin())  if (
+z == end()) re-turn 0; re-
+ []
+
+
+Overfull \hbox (758.59715pt too wide) in paragraph at lines 1699--1723
+\OT1/cmr/m/n/8 insert$[]\OML/cmm/m/it/8 ine\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 line
+[]m; line[]b\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 line[]query\OT1/cmr/m/n/8 (\OML/c
+mm/m/it/8 line[]x\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 H\OT1/cmr/m/n/8 ;$ 
+ []
+
+
+LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 1723.
+
+[4]
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1724 \begin{minted}
+                     {cpp}
+? 
+! Misplaced alignment tab character &.
+l.1730 	bool operator<(const line &
+                                   l)const{
+? 
+! Misplaced alignment tab character &.
+l.1748 bool solve(vector<line> v, vector<pi> &
+                                              solution){ // ax + by <= c;
+? 
+! Misplaced alignment tab character &.
+l.1751 	for(auto &
+                  i : v){
+? 
+! Misplaced alignment tab character &.
+l.1752 		if(!dq.empty() &
+                         & z(ccw(pi(0, 0), dq.back().slope(), i.slope()))) c...
+
+? 
+! Misplaced alignment tab character &.
+l.1752 		if(!dq.empty() &&
+                           z(ccw(pi(0, 0), dq.back().slope(), i.slope()))) c...
+
+? 
+! Misplaced alignment tab character &.
+l.1753 		while(dq.size() >= 2 &
+                               & bad(dq[dq.size()-2], dq.back(), i)) dq.pop_...
+
+? 
+! Misplaced alignment tab character &.
+l.1753 		while(dq.size() >= 2 &&
+                                 bad(dq[dq.size()-2], dq.back(), i)) dq.pop_...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1753 ...(dq[dq.size()-2], dq.back(), i)) dq.pop_
+                                                  back();
+? 
+! Misplaced alignment tab character &.
+l.1754 		while(dq.size() >= 2 &
+                               & bad(i, dq[0], dq[1])) dq.pop_front();
+? 
+! Misplaced alignment tab character &.
+l.1754 		while(dq.size() >= 2 &&
+                                 bad(i, dq[0], dq[1])) dq.pop_front();
+? 
+! Extra }, or forgotten $.
+l.1756 	}
+         
+? 
+! Misplaced alignment tab character &.
+l.1757 	while(dq.size() > 2 &
+                             & bad(dq[dq.size()-2], dq.back(), dq[0])) dq.po...
+
+? 
+! Misplaced alignment tab character &.
+l.1757 	while(dq.size() > 2 &&
+                               bad(dq[dq.size()-2], dq.back(), dq[0])) dq.po...
+
+? 
+! Misplaced alignment tab character &.
+l.1758 	while(dq.size() > 2 &
+                             & bad(dq.back(), dq[0], dq[1])) dq.pop_front();
+? 
+! Misplaced alignment tab character &.
+l.1758 	while(dq.size() > 2 &&
+                               bad(dq.back(), dq[0], dq[1])) dq.pop_front();
+? 
+! Extra }, or forgotten $.
+l.1767 }
+        
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1768 \end{minted}
+                   
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1768 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.1768 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.1768 \end{minted}
+                   
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 1724--1769
+\OT1/cmr/m/n/8 2\OML/cmm/m/it/8 bad\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 i; dq\OT1/cm
+r/m/n/8 [0]\OML/cmm/m/it/8 ; dq\OT1/cmr/m/n/8 [1]))\OML/cmm/m/it/8 dq:pop[]ront
+\OT1/cmr/m/n/8 (); \OML/cmm/m/it/8 dq:push[]ack\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 
+i\OT1/cmr/m/n/8 ); \OML/cmm/m/it/8 while\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 dq:size
+\OT1/cmr/m/n/8 () \OML/cmm/m/it/8 > \OT1/cmr/m/n/8 2\OML/cmm/m/it/8 bad\OT1/cmr
+/m/n/8 (\OML/cmm/m/it/8 dq\OT1/cmr/m/n/8 [\OML/cmm/m/it/8 dq:size\OT1/cmr/m/n/8
+ () \OMS/cmsy/m/n/8 ^^@
+ []
+
+
+Overfull \hbox (264.31113pt too wide) in paragraph at lines 1724--1769
+\OML/cmm/m/it/8 pi > tmp\OT1/cmr/m/n/8 ; \OML/cmm/m/it/8 for\OT1/cmr/m/n/8 (\OM
+L/cmm/m/it/8 inti \OT1/cmr/m/n/8 = 0; \OML/cmm/m/it/8 i < dq:size\OT1/cmr/m/n/8
+ (); \OML/cmm/m/it/8 i \OT1/cmr/m/n/8 + +)[]\OML/cmm/m/it/8 solution \OT1/cmr/m
+/n/8 =
+ []
+
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1770 \begin{minted}
+                     {cpp}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1771 // C : counter_
+                      clockwise(C[0] == C[N]), N >= 3
+? 
+! Misplaced alignment tab character &.
+l.1774 int convex_tangent(vector<pi> &
+                                      C, pi P, int up = 1){
+? 
+! Misplaced alignment tab character &.
+l.1775 	auto sign = [&
+                      ](lint c){ return c > 0 ? up : c == 0 ? 0 : -up; };
+? 
+! Misplaced alignment tab character &.
+l.1776 	auto local = [&
+                       ](pi P, pi a, pi b, pi c) {
+? 
+! Misplaced alignment tab character &.
+l.1777 		return sign(ccw(P, a, b)) <= 0 &
+                                         & sign(ccw(P, b, c)) >= 0;
+? 
+! Misplaced alignment tab character &.
+l.1777 		return sign(ccw(P, a, b)) <= 0 &&
+                                           sign(ccw(P, b, c)) >= 0;
+? 
+! Misplaced alignment tab character &.
+l.1795 	if( s &
+               & local(P, C[s-1], C[s], C[s+1]) ) return s;
+? 
+! Misplaced alignment tab character &.
+l.1795 	if( s &&
+                 local(P, C[s-1], C[s], C[s+1]) ) return s;
+? 
+! Misplaced alignment tab character &.
+l.1796 	if( e != N &
+                    & local(P, C[e-1], C[e], C[e+1]) ) return e;
+? 
+! Misplaced alignment tab character &.
+l.1796 	if( e != N &&
+                      local(P, C[e-1], C[e], C[e+1]) ) return e;
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1799 \end{minted}
+                   
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1799 \end{minted}
+                   
+? 
+
+Overfull \hbox (2044.56657pt too wide) in paragraph at lines 1770--1800
+\OT1/cmr/m/n/8 1)[]$ 
+ []
+
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1801 \begin{minted}
+                     {cpp}
+? 
+! Misplaced alignment tab character &.
+l.1827 	sort(a+s, a+e+1, [&
+                           ](const pi &a, const pi &b){
+? 
+! Misplaced alignment tab character &.
+l.1827 	sort(a+s, a+e+1, [&](const pi &
+                                       a, const pi &b){
+? 
+! Misplaced alignment tab character &.
+l.1827 ...(a+s, a+e+1, [&](const pi &a, const pi &
+                                                  b){
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1838 ...{ // find closest point from point x (L^
+                                                  2)
+? 
+! Misplaced alignment tab character &.
+l.1843 			if(ok[2*p+1] &
+                        & sqr(tree[2*p+1].sy - x.second) < dap) solve(2*p+1,...
+
+? 
+! Misplaced alignment tab character &.
+l.1843 			if(ok[2*p+1] &&
+                          sqr(tree[2*p+1].sy - x.second) < dap) solve(2*p+1,...
+
+? 
+! Misplaced alignment tab character &.
+l.1847 			if(ok[2*p] &
+                      & sqr(tree[2*p].ey - x.second) < dap) solve(2*p, x);
+? 
+! Misplaced alignment tab character &.
+l.1847 			if(ok[2*p] &&
+                        sqr(tree[2*p].ey - x.second) < dap) solve(2*p, x);
+? 
+! Misplaced alignment tab character &.
+l.1853 			if(ok[2*p+1] &
+                        & sqr(tree[2*p+1].sx - x.first) < dap) solve(2*p+1, x);
+
+? 
+! Misplaced alignment tab character &.
+l.1853 			if(ok[2*p+1] &&
+                          sqr(tree[2*p+1].sx - x.first) < dap) solve(2*p+1, x);
+
+? 
+! Misplaced alignment tab character &.
+l.1857 			if(ok[2*p] &
+                      & sqr(tree[2*p].ex - x.first) < dap) solve(2*p, x);
+? 
+! Misplaced alignment tab character &.
+l.1857 			if(ok[2*p] &&
+                        sqr(tree[2*p].ex - x.first) < dap) solve(2*p, x);
+? 
+! Extra }, or forgotten $.
+l.1860 }
+        
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1861 \end{minted}
+                   
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1861 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.1861 \end{minted}
+                   
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 1838--1862
+[]\OT1/cmr/m/n/8 void solve(int p, pi x) // find clos-est point from point x (L
+$[])\OML/cmm/m/it/8 if\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 x\OT1/cmr/m/n/8 ! =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1838--1862
+\OML/cmm/m/it/8 tree\OT1/cmr/m/n/8 [\OML/cmm/m/it/8 p\OT1/cmr/m/n/8 ]\OML/cmm/m
+/it/8 :pnt\OT1/cmr/m/n/8 )\OML/cmm/m/it/8 dap \OT1/cmr/m/n/8 = \OML/cmm/m/it/8 
+min\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 dap; sqr\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 x:fi
+rst \OMS/cmsy/m/n/8 ^^@ \OML/cmm/m/it/8 tree\OT1/cmr/m/n/8 [\OML/cmm/m/it/8 p\O
+T1/cmr/m/n/8 ]\OML/cmm/m/it/8 :pnt:first\OT1/cmr/m/n/8 ) + \OML/cmm/m/it/8 sqr\
+OT1/cmr/m/n/8 (\OML/cmm/m/it/8 x:second \OMS/cmsy/m/n/8 ^^@
+ []
+
+
+Overfull \hbox (1411.61508pt too wide) in paragraph at lines 1838--1862
+\OML/cmm/m/it/8 tree\OT1/cmr/m/n/8 [\OML/cmm/m/it/8 p\OT1/cmr/m/n/8 ]\OML/cmm/m
+/it/8 :pnt:second\OT1/cmr/m/n/8 )); \OML/cmm/m/it/8 if\OT1/cmr/m/n/8 (\OML/cmm/
+m/it/8 tree\OT1/cmr/m/n/8 [\OML/cmm/m/it/8 p\OT1/cmr/m/n/8 ]\OML/cmm/m/it/8 :sp
+l\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 else[]$ 
+ []
+
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1864 \begin{minted}
+                     {cpp}
+? 
+! Misplaced alignment tab character &.
+l.1866 void fft(vector<base> &
+                              a, bool inv){
+? 
+! Misplaced alignment tab character &.
+l.1911 vector<lint> multiply(vector<lint> &
+                                           v, vector<lint> &w){
+? 
+! Misplaced alignment tab character &.
+l.1911 ...multiply(vector<lint> &v, vector<lint> &
+                                                  w){
+? 
+! Misplaced alignment tab character &.
+l.1922 vector<lint> multiply(vector<lint> &
+                                           v, vector<lint> &w, lint mod){
+? 
+! Misplaced alignment tab character &.
+l.1922 ...multiply(vector<lint> &v, vector<lint> &
+                                                  w, lint mod){
+? 
+! Misplaced alignment tab character &.
+l.1926 		v1[i] = base(v[i] >> 15, v[i] &
+                                         32767);
+? 
+! Misplaced alignment tab character &.
+l.1929 		v2[i] = base(w[i] >> 15, w[i] &
+                                         32767);
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1957 \end{minted}
+                   
+? 
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1959 \begin{minted}
+                     {cpp}
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.1960 #
+        include <smmintrin.h>
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.1961 #
+        include <immintrin.h>
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.1962 #
+        pragma GCC target("avx2")
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.1963 #
+        pragma GCC target("fma")
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1964 _
+        _m256d mult(__m256d a, __m256d b){
+? 
+! Missing { inserted.
+<to be read again> 
+                   _
+l.1964 __
+         m256d mult(__m256d a, __m256d b){
+? 
+! Missing { inserted.
+<to be read again> 
+                   _
+l.1964 __m256d mult(__
+                      m256d a, __m256d b){
+? 
+! Missing { inserted.
+<to be read again> 
+                   _
+l.1964 __m256d mult(__m256d a, __
+                                 m256d b){
+? 
+! Missing { inserted.
+<to be read again> 
+                   _
+l.1965 	__
+          m256d c = _mm256_movedup_pd(a);
+? 
+! Missing { inserted.
+<to be read again> 
+                   _
+l.1966 	__
+          m256d d = _mm256_shuffle_pd(a, a, 15);
+? 
+! Missing { inserted.
+<to be read again> 
+                   _
+l.1967 	__
+          m256d cb = _mm256_mul_pd(c, b);
+? 
+! Missing { inserted.
+<to be read again> 
+                   _
+l.1968 	__
+          m256d db = _mm256_mul_pd(d, b);
+? 
+! Missing { inserted.
+<to be read again> 
+                   _
+l.1969 	__
+          m256d e = _mm256_shuffle_pd(db, db, 5);
+? 
+! Missing { inserted.
+<to be read again> 
+                   _
+l.1970 	__
+          m256d r = _mm256_addsub_pd(cb, e);
+? 
+! Missing { inserted.
+<to be read again> 
+                   _
+l.1973 void fft(int n, __
+                         m128d a[], bool invert){
+? 
+! Missing { inserted.
+<to be read again> 
+                   _
+l.1982 		__
+           m256d wlen; wlen[0] = cos(ang), wlen[1] = sin(ang);
+? 
+! Missing { inserted.
+<to be read again> 
+                   _
+l.1984 			__
+            m256d w; w[0] = 1; w[1] = 0;
+? 
+! Missing { inserted.
+<to be read again> 
+                   _
+l.1989 				__
+             m128d vw = _mm256_extractf128_pd(w, 1);
+? 
+! Missing { inserted.
+<to be read again> 
+                   _
+l.1990 				__
+             m128d u = a[i+j];
+? 
+! Missing { inserted.
+<to be read again> 
+                   _
+l.1997 		__
+           m128d inv; inv[0] = inv[1] = 1.0/n;
+? 
+! Misplaced alignment tab character &.
+l.2001 vector<int64_t> multiply(vector<int64_t>&
+                                                 v, vector<int64_t>& w){
+? 
+! Misplaced alignment tab character &.
+l.2001 ...ply(vector<int64_t>& v, vector<int64_t>&
+                                                   w){
+? 
+! Missing { inserted.
+<to be read again> 
+                   _
+l.2003 	__
+          m128d* fv = new __m128d[n];
+? 
+! Missing { inserted.
+<to be read again> 
+                   _
+l.2003 	__m128d* fv = new __
+                            m128d[n];
+? 
+! Missing { inserted.
+<to be read again> 
+                   _
+l.2009 		__
+           m256d a;
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2022 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2022 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2022 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2022 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2022 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2022 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2022 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2022 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2022 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2022 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2022 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2022 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2022 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2022 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2022 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2022 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2022 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2022 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2022 \end{minted}
+                   
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2022 \end{minted}
+                   
+? 
+
+Overfull \hbox (4279.54822pt too wide) in paragraph at lines 1959--2023
+\OT1/cmr/m/n/8 get("fma") $[]$ 
+ []
+
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2024 \begin{minted}
+                     {cpp}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2025 vector<lint> get_
+                        inv(int n, const vector<lint> &p){
+? 
+! Misplaced alignment tab character &.
+l.2025 ...int> get_inv(int n, const vector<lint> &
+                                                  p){
+? 
+! Misplaced alignment tab character &.
+l.2047 ...r<lint> poly_divide(const vector<lint> &
+                                                  a, const vector<lint> &b){
+? 
+! Misplaced alignment tab character &.
+l.2047 ...st vector<lint> &a, const vector<lint> &
+                                                  b){
+? 
+! Misplaced alignment tab character &.
+l.2052 	for(int i=0; i<m &
+                          & i<k; ++i) rb[i] = b[m-i-1];
+? 
+! Misplaced alignment tab character &.
+l.2052 	for(int i=0; i<m &&
+                            i<k; ++i) rb[i] = b[m-i-1];
+? 
+! Misplaced alignment tab character &.
+l.2053 	for(int i=0; i<n &
+                          & i<k; ++i) ra[i] = a[n-i-1];
+? 
+! Misplaced alignment tab character &.
+l.2053 	for(int i=0; i<n &&
+                            i<k; ++i) ra[i] = a[n-i-1];
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2060 \end{minted}
+                   
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2060 \end{minted}
+                   
+? 
+
+Overfull \hbox (1349.2778pt too wide) in paragraph at lines 2024--2061
+[]\OT1/cmr/m/n/8 cpp vec-tor<lint> get$[]\OML/cmm/m/it/8 nv\OT1/cmr/m/n/8 (\OML
+/cmm/m/it/8 intn; constvector < lint > p\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 vecto
+r <
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2024--2061
+\OML/cmm/m/it/8 lint > poly[]ivide\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 constvector <
+ lint > a; constvector < lint >
+ []
+
+
+Overfull \hbox (1060.41728pt too wide) in paragraph at lines 2024--2061
+\OML/cmm/m/it/8 b\OT1/cmr/m/n/8 )[]$ 
+ []
+
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2062 \begin{minted}
+                     {cpp}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2063 vector<int> berlekamp_
+                             massey(vector<int> x){
+? 
+! Misplaced alignment tab character &.
+l.2081 		for(auto &
+                   j : ls) c.push_back(-j * k % mod);
+? 
+! Misplaced alignment tab character &.
+l.2091 	for(auto &
+                  i : cur) i = (i % mod + mod) % mod;
+? 
+! Misplaced alignment tab character &.
+l.2100 	auto mul = [&
+                     rec](vector<int> v, vector<int> w){
+? 
+! Misplaced alignment tab character &.
+l.2119 		if(n &
+                1) s = mul(s, t);
+? 
+! Misplaced alignment tab character &.
+l.2138 	auto randint = [&
+                         rng](int lb, int ub){
+? 
+! Misplaced alignment tab character &.
+l.2154 		for(auto &
+                   i : M){
+? 
+! Misplaced alignment tab character &.
+l.2167 	auto randint = [&
+                         rng](int lb, int ub){
+? 
+! Misplaced alignment tab character &.
+l.2171 	for(auto &
+                  i : M){
+? 
+! Misplaced alignment tab character &.
+l.2176 	for(auto &
+                  i : rnd) sol = 1ll * sol * ipow(i, mod - 2) % mod;
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2179 \end{minted}
+                   
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2179 \end{minted}
+                   
+? 
+
+Overfull \hbox (1947.18707pt too wide) in paragraph at lines 2062--2180
+[]\OT1/cmr/m/n/8 cpp vec-tor<int> berlekamp$[]\OML/cmm/m/it/8 assey\OT1/cmr/m/n
+/8 (\OML/cmm/m/it/8 vector < int > x\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 intget[]t
+h\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 vector <
+ []
+
+
+Overfull \hbox (2000.47144pt too wide) in paragraph at lines 2062--2180
+\OML/cmm/m/it/8 int > rec; vector < int > dp; lintn\OT1/cmr/m/n/8 )[]\OML/cmm/m
+/it/8 intguess[]th[]erm\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 vector <
+ []
+
+
+Overfull \hbox (204.39645pt too wide) in paragraph at lines 2062--2180
+\OML/cmm/m/it/8 int > x; lintn\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 structelem[]\OT
+1/cmr/m/n/8 ; \OML/cmm/m/it/8 ==A[]x; y\OT1/cmr/m/n/8 ) \OML/cmm/m/it/8 <
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2062--2180
+\OMS/cmsy/m/n/8 ^^@\OML/cmm/m/it/8 v; \OT1/cmr/m/n/8 0 \OMS/cmsy/m/n/8 ^^@ \OML
+/cmm/m/it/8 based:noduplicateplease::vector < int > get[]in[]oly\OT1/cmr/m/n/8 
+(\OML/cmm/m/it/8 intn; vector < elem >
+ []
+
+
+Overfull \hbox (2131.18266pt too wide) in paragraph at lines 2062--2180
+\OML/cmm/m/it/8 M\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 lintdet\OT1/cmr/m/n/8 (\OML/
+cmm/m/it/8 intn; vector <
+ []
+
+
+Overfull \hbox (854.67381pt too wide) in paragraph at lines 2062--2180
+\OML/cmm/m/it/8 elem > M\OT1/cmr/m/n/8 )[]$ 
+ []
+
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2181 \begin{minted}
+                     {cpp}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2188 		if(basis[i].size()) inv ^
+                                  = 1; // inversion num increases
+? 
+! Misplaced alignment tab character &.
+l.2189 		if(v[i] &
+                  & basis[i].empty()){
+? 
+! Misplaced alignment tab character &.
+l.2189 		if(v[i] &&
+                    basis[i].empty()){
+? 
+! Misplaced alignment tab character &.
+l.2195 			for(auto &
+                    j : basis[i]) j = (j * minv) % mod;
+? 
+! Extra }, or forgotten $.
+l.2203 	}
+         
+? 
+! Extra }, or forgotten $.
+l.2206 }
+        
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2207 
+       
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 2186--2207
+[]\OT1/cmr/m/n/8 void in-sert(vector<int> v) for(int i=0; i<n; i++) if(basis[i]
+.size()) inv
+ []
+
+
+Overfull \hbox (703.54053pt too wide) in paragraph at lines 2186--2207
+[]\OT1/cmr/m/n/8 1; \OML/cmm/m/it/8 ==inversionnumincreasesif\OT1/cmr/m/n/8 (\O
+ML/cmm/m/it/8 v\OT1/cmr/m/n/8 [\OML/cmm/m/it/8 i\OT1/cmr/m/n/8 ]\OML/cmm/m/it/8
+ basis\OT1/cmr/m/n/8 [\OML/cmm/m/it/8 i\OT1/cmr/m/n/8 ]\OML/cmm/m/it/8 :empty\O
+T1/cmr/m/n/8 ())[]\OML/cmm/m/it/8 if\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 v\OT1/cmr/m
+/n/8 [\OML/cmm/m/it/8 i\OT1/cmr/m/n/8 ])[]\OML/cmm/m/it/8 puts\OT1/cmr/m/n/8 ("
+0"); \OML/cmm/m/it/8 exit\OT1/cmr/m/n/8 (0);$ 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2208 // Sample: Calculates Determinant in Z_
+                                              p Field
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2222 \end{minted}
+                   
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2222 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2222 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2222 \end{minted}
+                   
+? 
+
+Overfull \hbox (681.89859pt too wide) in paragraph at lines 2208--2223
+[]\OT1/cmr/m/n/8 // Sam-ple: Cal-cu-lates De-ter-mi-nant in Z$[]\OML/cmm/m/it/8
+ Fieldintmain\OT1/cmr/m/n/8 ()[]$ 
+ []
+
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2224 \begin{minted}
+                     {cpp}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2231 // Ax <= b, max c^
+                         T x. 최댓값: v, 답 추적: sol[i]. 1 based
+? 
+
+! Package inputenc Error: Unicode character 최 (U+CD5C)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2231 // Ax <= b, max c^T x. 최
+                                 댓값: v, 답 추적: sol[i]. 1 based
+? 
+
+! Package inputenc Error: Unicode character 댓 (U+B313)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2231 // Ax <= b, max c^T x. 최댓
+                                    값: v, 답 추적: sol[i]. 1 based
+? 
+
+! Package inputenc Error: Unicode character 값 (U+AC12)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2231 // Ax <= b, max c^T x. 최댓값
+                                       : v, 답 추적: sol[i]. 1 based
+? 
+
+! Package inputenc Error: Unicode character 답 (U+B2F5)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2231 // Ax <= b, max c^T x. 최댓값: v, 답
+                                                추적: sol[i]. 1 based
+? 
+
+! Package inputenc Error: Unicode character 추 (U+CD94)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2231 ...x <= b, max c^T x. 최댓값: v, 답 추
+                                                  적: sol[i]. 1 based
+? 
+
+! Package inputenc Error: Unicode character 적 (U+C801)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2231 ...= b, max c^T x. 최댓값: v, 답 추적
+                                                  : sol[i]. 1 based
+? 
+! Misplaced alignment tab character &.
+l.2234 bool ls(T a, T b) { return a < b &
+                                         & !eq(a, b); }
+? 
+! Misplaced alignment tab character &.
+l.2234 bool ls(T a, T b) { return a < b &&
+                                           !eq(a, b); }
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2252 
+       
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2252 
+       
+? 
+
+Underfull \hbox (badness 4467) in paragraph at lines 2224--2252
+[]\OT1/cmr/m/n/8 cpp us-ing T = long dou-ble; const int N = 410, M = 30010; con
+st T eps = 1e-
+ []
+
+
+Underfull \hbox (badness 6032) in paragraph at lines 2224--2252
+\OT1/cmr/m/n/8 7; int n, m; int Left[M], Down[N]; // time com-plex-ity: ex-po-n
+en-tial. fast $\OML/cmm/m/it/8 O\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 MN[]\OT1/cmr/m/
+n/8 )$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2224--2252
+\OT1/cmr/m/n/8 in ex-per-i-ment. de-pen-dent on the mod-el-ing. // Ax <= b, max
+ c$[]\OML/cmm/m/it/8 x: \OT1/cmr/m/n/8 : \OML/cmm/m/it/8 v; \OT1/cmr/m/n/8 :
+ []
+
+
+Overfull \hbox (1368.93848pt too wide) in paragraph at lines 2224--2252
+\OML/cmm/m/it/8 sol\OT1/cmr/m/n/8 [\OML/cmm/m/it/8 i\OT1/cmr/m/n/8 ]\OML/cmm/m/
+it/8 :\OT1/cmr/m/n/8 1\OML/cmm/m/it/8 basedTa\OT1/cmr/m/n/8 [\OML/cmm/m/it/8 M\
+OT1/cmr/m/n/8 ][\OML/cmm/m/it/8 N\OT1/cmr/m/n/8 ]\OML/cmm/m/it/8 ; b\OT1/cmr/m/
+n/8 [\OML/cmm/m/it/8 M\OT1/cmr/m/n/8 ]\OML/cmm/m/it/8 ; c\OT1/cmr/m/n/8 [\OML/c
+mm/m/it/8 N\OT1/cmr/m/n/8 ]\OML/cmm/m/it/8 ; v; sol\OT1/cmr/m/n/8 [\OML/cmm/m/i
+t/8 N\OT1/cmr/m/n/8 ]; \OML/cmm/m/it/8 booleq\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 Ta
+; Tb\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 boolls\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 Ta;
+ Tb\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 voidinit\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 in
+tp; intq\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 voidpivot\OT1/cmr/m/n/8 (\OML/cmm/m/i
+t/8 intx; inty\OT1/cmr/m/n/8 )[]$ 
+ []
+
+! Extra }, or forgotten \endgroup.
+l.2263 }
+        
+? 
+! Misplaced alignment tab character &.
+l.2270 ...nt i = 1; i <= m; i++) if (ls(b[i], 0) &
+                                                  & (x == 0 || b[i] < b[x]))...
+
+? 
+! Misplaced alignment tab character &.
+l.2270 ...t i = 1; i <= m; i++) if (ls(b[i], 0) &&
+                                                   (x == 0 || b[i] < b[x])) ...
+
+? 
+! Misplaced alignment tab character &.
+l.2272 ...i = 1; i <= n; i++) if (ls(a[x][i], 0) &
+                                                  & (y == 0 || a[x][i] < a[x...
+
+? 
+! Misplaced alignment tab character &.
+l.2272 ... = 1; i <= n; i++) if (ls(a[x][i], 0) &&
+                                                   (y == 0 || a[x][i] < a[x]...
+
+? 
+! Misplaced alignment tab character &.
+l.2279 			if (ls(0, c[i]) &
+                           & (!y || c[i] > c[y])) y = i;
+? 
+! Misplaced alignment tab character &.
+l.2279 			if (ls(0, c[i]) &&
+                             (!y || c[i] > c[y])) y = i;
+? 
+! Misplaced alignment tab character &.
+l.2282 			if (ls(0, a[i][y]) &
+                              & (!x || b[i]/a[i][y] < b[x]/a[x][y])) x = i;
+? 
+! Misplaced alignment tab character &.
+l.2282 			if (ls(0, a[i][y]) &&
+                                (!x || b[i]/a[i][y] < b[x]/a[x][y])) x = i;
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2289 \end{minted}
+                   
+? 
+
+LaTeX Warning: Reference `LastPage' on page 5 undefined on input line 2290.
+
+[5]
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2291 \begin{minted}
+                     {cpp}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2294 gp.emplace_
+                  back(0, 0);
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2304 \end{minted}
+                   
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2304 \end{minted}
+                   
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 2291--2305
+[]\OT1/cmr/m/n/8 cpp vec-tor<pair<int, int>> gp; lint P[MAXN+1] = ; gp.emplace$
+[]\OML/cmm/m/it/8 ack\OT1/cmr/m/n/8 (0\OML/cmm/m/it/8 ; \OT1/cmr/m/n/8 0); \OML
+/cmm/m/it/8 for\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 inti \OT1/cmr/m/n/8 =
+ []
+
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2306 \begin{minted}
+                     {cpp}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2307 // Create cyclic string of length k^
+                                           n that contains every length n st...
+
+? 
+! Misplaced alignment tab character &.
+l.2318 	function<void(int, int)> db = [&
+                                        ](int t, int p) {
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2336 \end{minted}
+                   
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2336 \end{minted}
+                   
+? 
+
+Underfull \hbox (badness 1442) in paragraph at lines 2306--2337
+[]\OT1/cmr/m/n/8 cpp // Cre-ate cyclic string of length k$[]\OML/cmm/m/it/8 tha
+tcontainseverylengthnstringassubstring:alphabet \OT1/cmr/m/n/8 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2306--2337
+\OT1/cmr/m/n/8 [0\OML/cmm/m/it/8 ; k \OMS/cmsy/m/n/8 ^^@ \OT1/cmr/m/n/8 1]\OML/
+cmm/m/it/8 intres\OT1/cmr/m/n/8 [10000000]; \OML/cmm/m/it/8 == >\OT1/cmr/m/n/8 
+= \OML/cmm/m/it/8 k[]intaux\OT1/cmr/m/n/8 [10000000]; \OML/cmm/m/it/8 == >\OT1/
+cmr/m/n/8 = \OML/cmm/m/it/8 k \OMS/cmsy/m/n/8 ^^C
+ []
+
+
+Overfull \hbox (896.4387pt too wide) in paragraph at lines 2306--2337
+\OML/cmm/m/it/8 nintde[]ruijn\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 intk; intn\OT1/cmr
+/m/n/8 )[]$ 
+ []
+
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2338 \begin{minted}
+                     {cpp}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2340  * Solve x for x^
+                        P = A mod Q
+? 
+! Missing { inserted.
+<to be read again> 
+                   _
+l.2346 LL mul(LL x, LL y, LL mod){ return (__
+                                             int128) x * y % mod; }
+? 
+! Misplaced alignment tab character &.
+l.2351 		if(y &
+                1) ret = mul(ret, piv, mod);
+? 
+! Misplaced alignment tab character &.
+l.2357 void gcd(LL a, LL b, LL &
+                                x, LL &y, LL &g){
+? 
+! Misplaced alignment tab character &.
+l.2357 void gcd(LL a, LL b, LL &x, LL &
+                                       y, LL &g){
+? 
+! Misplaced alignment tab character &.
+l.2357 void gcd(LL a, LL b, LL &x, LL &y, LL &
+                                              g){
+? 
+! You can't use `macro parameter character #' in math mode.
+l.2370 #
+        define FOR(i, c) for (int i = 0; i < (c); ++i)
+? 
+! You can't use `macro parameter character #' in math mode.
+l.2371 #
+        define REP(i, l, r) for (int i = (l); i <= (r); ++i)
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2384 
+       
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2384 
+       
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2384 
+       
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2384 
+       
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 2338--2384
+[]\OT1/cmr/m/n/8 cpp /* * Solve x for x$[] = \OML/cmm/m/it/8 AmodQ \OMS/cmsy/m/
+n/8 ^^C \OT1/cmr/m/n/8 (\OML/cmm/m/it/8 P; Q \OMS/cmsy/m/n/8 ^^@ \OT1/cmr/m/n/8
+ 1) = 1\OMS/cmsy/m/n/8 ^^@ \OML/cmm/m/it/8 > P[]\OT1/cmr/m/n/8 1\OML/cmm/m/it/8
+ mod\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 Q \OMS/cmsy/m/n/8 ^^@
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2338--2384
+\OT1/cmr/m/n/8 1)\OML/cmm/m/it/8 exists \OMS/cmsy/m/n/8 ^^C \OML/cmm/m/it/8 xha
+ssolutioniffA[]\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 Q \OMS/cmsy/m/n/8 ^^@ \OT1/cmr/m
+/n/8 1)\OML/cmm/m/it/8 =P\OT1/cmr/m/n/8 ) = 1\OML/cmm/m/it/8 modQ \OMS/cmsy/m/n
+/8 ^^C \OML/cmm/m/it/8 PP\OMS/cmsy/m/n/8 j\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 Q \OM
+S/cmsy/m/n/8 ^^@ \OT1/cmr/m/n/8 1)\OMS/cmsy/m/n/8 ^^@ \OML/cmm/m/it/8 > P <
+ []
+
+
+Overfull \hbox (2187.04735pt too wide) in paragraph at lines 2338--2384
+\OML/cmm/m/it/8 longlong\OT1/cmr/m/n/8 ; \OML/cmm/m/it/8 LLmul\OT1/cmr/m/n/8 (\
+OML/cmm/m/it/8 LLx; LLy; LLmod\OT1/cmr/m/n/8 )[]$ 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2385 LL dis_
+              log(LL x) {
+? 
+! Extra }, or forgotten $.
+l.2446 }
+        
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2447 \end{minted}
+                   
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2447 \end{minted}
+                   
+? 
+
+Overfull \hbox (341.9929pt too wide) in paragraph at lines 2385--2448
+[]\OT1/cmr/m/n/8 LL dis$[]\OML/cmm/m/it/8 og\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 LLx
+\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 LLmain\OT1/cmr/m/n/8 2()[]\OML/cmm/m/it/8 if\
+OT1/cmr/m/n/8 (\OML/cmm/m/it/8 A \OT1/cmr/m/n/8 ==
+ []
+
+
+Overfull \hbox (206.6716pt too wide) in paragraph at lines 2385--2448
+\OT1/cmr/m/n/8 0)\OML/cmm/m/it/8 return\OT1/cmr/m/n/8 0; \OML/cmm/m/it/8 if\OT1
+/cmr/m/n/8 (\OML/cmm/m/it/8 t \OT1/cmr/m/n/8 == 0)[]\OML/cmm/m/it/8 ==AisnotP \
+OMS/cmsy/m/n/8 ^^@
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2385--2448
+\OML/cmm/m/it/8 residueif\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 pw\OT1/cmr/m/n/8 (\OML
+/cmm/m/it/8 A; \OT1/cmr/m/n/8 (\OML/cmm/m/it/8 Q \OMS/cmsy/m/n/8 ^^@ \OT1/cmr/m
+/n/8 1)\OML/cmm/m/it/8 =P; Q\OT1/cmr/m/n/8 )! = 1)\OML/cmm/m/it/8 return \OMS/c
+msy/m/n/8 ^^@ \OT1/cmr/m/n/8 1; \OML/cmm/m/it/8 for\OT1/cmr/m/n/8 (\OML/cmm/m/i
+t/8 g \OT1/cmr/m/n/8 = 2; \OML/cmm/m/it/8 g < Q\OT1/cmr/m/n/8 ; + +
+ []
+
+
+Overfull \hbox (26.1277pt too wide) in paragraph at lines 2385--2448
+\OML/cmm/m/it/8 g\OT1/cmr/m/n/8 )[]\OML/cmm/m/it/8 LLalpha \OT1/cmr/m/n/8 = 0; 
+[]\OML/cmm/m/it/8 if\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 t \OT1/cmr/m/n/8 ==
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2385--2448
+\OT1/cmr/m/n/8 1)[]\OML/cmm/m/it/8 LLa \OT1/cmr/m/n/8 = \OML/cmm/m/it/8 pw\OT1/
+cmr/m/n/8 (\OML/cmm/m/it/8 g; \OT1/cmr/m/n/8 (\OML/cmm/m/it/8 Q \OMS/cmsy/m/n/8
+ ^^@ \OT1/cmr/m/n/8 1)\OML/cmm/m/it/8 =P; Q\OT1/cmr/m/n/8 ); \OML/cmm/m/it/8 bu
+ild\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 a\OT1/cmr/m/n/8 ); \OML/cmm/m/it/8 LLb \OT1/
+cmr/m/n/8 =
+ []
+
+
+Underfull \hbox (badness 7308) in paragraph at lines 2385--2448
+\OML/cmm/m/it/8 pw\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 A; add\OT1/cmr/m/n/8 (\OML/cm
+m/m/it/8 mul\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 PLLc \OT1/cmr/m/n/8 = \OML/cmm/m/it
+/8 pw\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 g; s; Q\OT1/cmr/m/n/8 ); \OML/cmm/m/it/8 L
+Lh \OT1/cmr/m/n/8 = 1; \OML/cmm/m/it/8 LLe \OT1/cmr/m/n/8 = (\OML/cmm/m/it/8 Q 
+\OMS/cmsy/m/n/8 ^^@ \OT1/cmr/m/n/8 1)\OML/cmm/m/it/8 =s=P\OT1/cmr/m/n/8 ; \OML/
+cmm/m/it/8 ==r[]REP\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 i; \OT1/cmr/m/n/8 1\OML/cmm/
+m/it/8 ; t \OMS/cmsy/m/n/8 ^^@
+ []
+
+
+Overfull \hbox (271.5461pt too wide) in paragraph at lines 2385--2448
+\OT1/cmr/m/n/8 1)[]\OML/cmm/m/it/8 returnmul\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 pw\
+OT1/cmr/m/n/8 (\OML/cmm/m/it/8 A; alpha; Q\OT1/cmr/m/n/8 )\OML/cmm/m/it/8 ; h; 
+Q\OT1/cmr/m/n/8 );$ 
+ []
+
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2449 \begin{minted}
+                     {cpp}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2450 namespace miller_
+                        rabin{
+? 
+! Missing { inserted.
+<to be read again> 
+                   _
+l.2451 ...ul(lint x, lint y, lint mod){ return (__
+                                                  int128) x * y % mod; }
+? 
+! Misplaced alignment tab character &.
+l.2455 			if(y&
+               1) ret = mul(ret, piv, p);
+? 
+! Misplaced alignment tab character &.
+l.2466 			if(d&
+               1) return (tmp != 1 && tmp != x-1);
+? 
+! Misplaced alignment tab character &.
+l.2466 			if(d&1) return (tmp != 1 &
+                                    & tmp != x-1);
+? 
+! Misplaced alignment tab character &.
+l.2466 			if(d&1) return (tmp != 1 &&
+                                      tmp != x-1);
+? 
+! Misplaced alignment tab character &.
+l.2472 		for(auto &
+                   i : {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37}){
+? 
+! Misplaced alignment tab character &.
+l.2474 			if(x > 40 &
+                     & miller_rabin(x, i)) return 0;
+? 
+! Misplaced alignment tab character &.
+l.2474 			if(x > 40 &&
+                       miller_rabin(x, i)) return 0;
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2480 
+       
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2480 
+       
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2480 
+       
+? 
+
+Overfull \hbox (1211.58618pt too wide) in paragraph at lines 2449--2480
+[]\OT1/cmr/m/n/8 cpp names-pace miller$[]\OML/cmm/m/it/8 abin[]$ 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2481 namespace pollard_
+                         rho{
+? 
+! Misplaced alignment tab character &.
+l.2485 	void rec(lint n, vector<lint> &
+                                       v){
+? 
+! Extra }, or forgotten $.
+l.2517 }
+        ;
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2518 \end{minted}
+                   
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2518 \end{minted}
+                   
+? 
+
+Overfull \hbox (1151.7039pt too wide) in paragraph at lines 2481--2519
+[]\OT1/cmr/m/n/8 namespace pollard$[]\OML/cmm/m/it/8 ho[]vector <
+ []
+
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2520 \begin{minted}
+                     {cpp}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2521 	< 10^
+             k          number     divisors   2 3 5 71113171923293137
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2541 
+       
+? 
+
+Overfull \hbox (1301.01321pt too wide) in paragraph at lines 2520--2541
+\OT1/cmr/m/n/8 1641126012211384032311147560643311583160128331116720720240421111
+7864864044863111187351344076853111119735134400134463211111069837768002304532111
+1111977728752004032632211111296376119840067206421111111393163582512001075263211
+1111114978217616376001728054221111111586642131736160026880642111111111680865989
+6204160041472832211111111774801040398884800645126322111111111889761248478661760
+0103680842211111111$ 
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2542 	< 10^
+             k    prime   # of prime          < 10^k            prime
+? 
+! You can't use `macro parameter character #' in math mode.
+l.2542 	< 10^k    prime   #
+                            of prime          < 10^k            prime
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2553 \end{minted}
+                   
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2553 \end{minted}
+                   
+? 
+
+Underfull \hbox (badness 1642) in paragraph at lines 2542--2555
+[]\OT1/cmr/m/n/8 < 10$[]\OML/cmm/m/it/8 primeofprime < \OT1/cmr/m/n/8 10[]\OML/
+cmm/m/it/8 prime \OMS/cmsy/m/n/8 ^^@ ^^@ ^^@ ^^@ ^^@ ^^@ ^^@ ^^@ ^^@ ^^@ ^^@ ^^
+@ ^^@ ^^@ ^^@ ^^@ ^^@ ^^@ ^^@ ^^@ ^^@ ^^@ ^^@
+ []
+
+
+Overfull \hbox (616.75339pt too wide) in paragraph at lines 2542--2555
+\OT1/cmr/m/n/8 1741099999999672972511999999999773997168129999999999894997312291
+3999999999997159999195921499999999999973699998378498159999999999999897999999166
+4579169999999999999937899999989576145517999999999999999979999999937508475341899
+9999999999999989$
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 2564
+.
+(/usr/local/texlive/2019basic/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 2564.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2567--2572
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2573--2574
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2575--2576
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2578--2580
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2581--2583
+
+ []
+
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2589 \begin{minted}
+                     {cpp}
+? 
+! Misplaced alignment tab character &.
+l.2590 // number of (x, y) : (0 <= x < n &
+                                          & 0 < y <= k/d x + b/d)
+? 
+! Misplaced alignment tab character &.
+l.2590 // number of (x, y) : (0 <= x < n &&
+                                            0 < y <= k/d x + b/d)
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2592 ll count_
+                solve(ll n, ll k, ll b, ll d) {
+? 
+
+! LaTeX Error: \begin{itemize} on input line 2563 ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2601 \end{minted}
+                   
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2601 \end{minted}
+                   
+? 
+
+Overfull \hbox (274.53818pt too wide) in paragraph at lines 2587--2602
+\OT1/cmr/m/n/8 count$[]\OML/cmm/m/it/8 olve\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 lln;
+ llk; llb; lld\OT1/cmr/m/n/8 )[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2602--2609
+
+ []
+
+
+LaTeX Warning: Reference `LastPage' on page 6 undefined on input line 2615.
+
+[6]
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2621 \begin{minted}
+                     {cpp}
+? 
+! Misplaced alignment tab character &.
+l.2622 ...gned long long x, unsigned y, unsigned &
+                                                  out_d, unsigned &out_m) {
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2622 ... long long x, unsigned y, unsigned &out_
+                                                  d, unsigned &out_m) {
+? 
+! Misplaced alignment tab character &.
+l.2622 ... unsigned y, unsigned &out_d, unsigned &
+                                                  out_m) {
+? 
+! You can't use `macro parameter character #' in math mode.
+l.2624 #
+        ifdef __GNUC__
+? 
+! Missing { inserted.
+<to be read again> 
+                   _
+l.2624 #ifdef __
+                GNUC__
+? 
+! Missing { inserted.
+<to be read again> 
+                   _
+l.2624 #ifdef __GNUC__
+                      
+? 
+! You can't use `macro parameter character #' in math mode.
+l.2630 #
+        else
+? 
+! Missing { inserted.
+<to be read again> 
+                   _
+l.2631 	__
+          asm {
+? 
+! You can't use `macro parameter character #' in math mode.
+l.2638 #
+        endif
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2648 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2648 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2648 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2648 \end{minted}
+                   
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2648 \end{minted}
+                   
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 2621--2649
+[]\OT1/cmr/m/n/8 cpp in-line void faster-LL-Div-Mod(unsigned long long x, un-si
+gned y, un-signed
+ []
+
+
+Overfull \hbox (980.1152pt too wide) in paragraph at lines 2621--2649
+\OT1/cmr/m/n/8 out$[]\OML/cmm/m/it/8 ; unsignedout[]\OT1/cmr/m/n/8 )[]$ 
+ []
+
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2650 \begin{minted}
+                     {cpp}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2651 int _
+            _builtin_clz(int x);// number of leading zero
+? 
+! Missing { inserted.
+<to be read again> 
+                   _
+l.2651 int __
+             builtin_clz(int x);// number of leading zero
+? 
+! Missing { inserted.
+<to be read again> 
+                   _
+l.2652 int __
+             builtin_ctz(int x);// number of trailing zero
+? 
+! Missing { inserted.
+<to be read again> 
+                   _
+l.2653 int __
+             builtin_clzll(long long x);// number of leading zero
+? 
+! Missing { inserted.
+<to be read again> 
+                   _
+l.2654 int __
+             builtin_ctzll(long long x);// number of trailing zero
+? 
+! Missing { inserted.
+<to be read again> 
+                   _
+l.2655 int __
+             builtin_popcount(int x);// number of 1-bits in x
+? 
+! Missing { inserted.
+<to be read again> 
+                   _
+l.2656 int __
+             builtin_popcountll(long long x);// number of 1-bits in x
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2657 
+       
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2657 
+       
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2657 
+       
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2657 
+       
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2657 
+       
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2657 
+       
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2657 
+       
+? 
+
+Overfull \hbox (590.19135pt too wide) in paragraph at lines 2650--2657
+[]\OT1/cmr/m/n/8 cpp int $[]$ 
+ []
+
+! Misplaced alignment tab character &.
+l.2658 lsb(n): (n &
+                    -n); // last bit (smallest)
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2659 floor(log2(n)): 31 - _
+                             _builtin_clz(n | 1);
+? 
+! Missing { inserted.
+<to be read again> 
+                   _
+l.2659 floor(log2(n)): 31 - __
+                              builtin_clz(n | 1);
+? 
+! Missing { inserted.
+<to be read again> 
+                   _
+l.2660 floor(log2(n)): 63 - __
+                              builtin_clzll(n | 1);
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2661 
+       
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2661 
+       
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2661 
+       
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2663 long long next_
+                      perm(long long v){
+? 
+! Misplaced alignment tab character &.
+l.2665 	return (t + 1) | (((~t &
+                                 -~t) - 1) >> (__builtin_ctz(v) + 1));
+? 
+! Missing { inserted.
+<to be read again> 
+                   _
+l.2665 	return (t + 1) | (((~t & -~t) - 1) >> (__
+                                                 builtin_ctz(v) + 1));
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2667 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2667 \end{minted}
+                   
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2667 \end{minted}
+                   
+? 
+
+Underfull \hbox (badness 4303) in paragraph at lines 2662--2668
+[]\OT1/cmr/m/n/8 // com-pute next perm. ex) 00111, 01011, 01101, 01110, 10011, 
+10101.. long long
+ []
+
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2669 \begin{minted}
+                     {cpp}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2673 static inline int _
+                          read() {
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2689 \end{minted}
+                   
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2689 \end{minted}
+                   
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 2669--2690
+[]\OT1/cmr/m/n/8 cpp static char buf[1 << 19]; // size : any num-ber geq than
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2669--2690
+\OT1/cmr/m/n/8 1024 static int idx = 0; static int bytes = 0; static in-line in
+t
+ []
+
+
+Overfull \hbox (741.3739pt too wide) in paragraph at lines 2669--2690
+[]\OML/cmm/m/it/8 ead\OT1/cmr/m/n/8 ()[]\OML/cmm/m/it/8 staticinlineint[]eadInt
+\OT1/cmr/m/n/8 ()[]$ 
+ []
+
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2691 \begin{minted}
+                     {cpp}
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.2692 #
+        include <ext/pb_ds/assoc_container.hpp>
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2692 #include <ext/pb_
+                        ds/assoc_container.hpp>
+? 
+! You can't use `macro parameter character #' in math mode.
+l.2693 #
+        include <ext/pb_ds/tree_policy.hpp>
+? 
+! Missing { inserted.
+<to be read again> 
+                   _
+l.2694 using namespace __
+                         gnu_pbds;
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2695 
+       
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2695 
+       
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 2691--2695
+[]\OT1/cmr/m/n/8 cpp in-clude <ext/pb$[]\OML/cmm/m/it/8 s=assoc[]ontainer:hpp >
+ include < ext=pb[]s=tree[]olicy:hpp >
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2697 tree<int, null_
+                      type, less<int>, rb_tree_tag, tree_order_statistics_no...
+
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2698 
+       
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2699 ordered_
+               set X;
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2701 
+       
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2702 cout<<*X.find_
+                     by_order(1)<<endl; // 2
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2706 
+       
+? 
+
+Underfull \hbox (badness 5260) in paragraph at lines 2702--2706
+[]\OT1/cmr/m/n/8 cout<<*X.find$[]\OML/cmm/m/it/8 y[]rder\OT1/cmr/m/n/8 (1) \OML
+/cmm/m/it/8 << endl\OT1/cmr/m/n/8 ; \OML/cmm/m/it/8 ==\OT1/cmr/m/n/8 2\OML/cmm/
+m/it/8 cout << \OMS/cmsy/m/n/8 ^^C\OML/cmm/m/it/8 X:find[]y[]rder\OT1/cmr/m/n/8
+ (2) \OML/cmm/m/it/8 << endl\OT1/cmr/m/n/8 ; \OML/cmm/m/it/8 ==\OT1/cmr/m/n/8 4
+\OML/cmm/m/it/8 cout <<
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2707 cout<<X.order_
+                     of_key(-5)<<endl;  // 0
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2712 \end{minted}
+                   
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2712 \end{minted}
+                   
+? 
+
+Underfull \hbox (badness 7722) in paragraph at lines 2707--2713
+[]\OT1/cmr/m/n/8 cout<<X.order$[]\OML/cmm/m/it/8 f[]ey\OT1/cmr/m/n/8 (\OMS/cmsy
+/m/n/8 ^^@\OT1/cmr/m/n/8 5) \OML/cmm/m/it/8 << endl\OT1/cmr/m/n/8 ; \OML/cmm/m/
+it/8 ==\OT1/cmr/m/n/8 0\OML/cmm/m/it/8 cout << X:order[]f[]ey\OT1/cmr/m/n/8 (1)
+ \OML/cmm/m/it/8 << endl\OT1/cmr/m/n/8 ; \OML/cmm/m/it/8 ==\OT1/cmr/m/n/8 0\OML
+/cmm/m/it/8 cout <<
+ []
+
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2714 \begin{minted}
+                     {cpp}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2718 	size_
+             t  sz = 1<<29;  // 512MB
+? 
+! Missing { inserted.
+<to be read again> 
+                   _
+l.2721 	asm  __
+               volatile__("movq %0, %%rax\n\t"
+? 
+! Missing { inserted.
+<to be read again> 
+                   _
+l.2721 	asm  __volatile__
+                         ("movq %0, %%rax\n\t"
+? 
+! Missing { inserted.
+<to be read again> 
+                   _
+l.2725 	asm  __
+               volatile__("pop %rsp\n\t");
+? 
+! Missing { inserted.
+<to be read again> 
+                   _
+l.2725 	asm  __volatile__
+                         ("pop %rsp\n\t");
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2728 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2728 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2728 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2728 \end{minted}
+                   
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2728 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2728 \end{minted}
+                   
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 2714--2729
+[]\OT1/cmr/m/n/8 cpp // 64bit ver. int main2() re-turn 0;  int main() size$[]\O
+ML/cmm/m/it/8 sz \OT1/cmr/m/n/8 = 1 \OML/cmm/m/it/8 <<
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2714--2729
+\OT1/cmr/m/n/8 29; \OML/cmm/m/it/8 ==\OT1/cmr/m/n/8 512\OML/cmm/m/it/8 MBvoid \
+OMS/cmsy/m/n/8 ^^C \OML/cmm/m/it/8 newstack \OT1/cmr/m/n/8 = \OML/cmm/m/it/8 ma
+lloc\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 sz\OT1/cmr/m/n/8 ); \OML/cmm/m/it/8 void \O
+MS/cmsy/m/n/8 ^^C \OML/cmm/m/it/8 sp[]est \OT1/cmr/m/n/8 = \OML/cmm/m/it/8 news
+tack \OT1/cmr/m/n/8 + \OML/cmm/m/it/8 sz \OMS/cmsy/m/n/8 ^^@
+ []
+
+
+! LaTeX Error: Environment minted undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2730 \begin{minted}
+                     {cpp}
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2738 }; // https://gcc.gnu.org/bugzilla/show_
+                                               bug.cgi?id=68203
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2739 
+       
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 2736--2739
+[]\OT1/cmr/m/n/8 struct StupidGC-C-Can-tEven-Com-pileThisSim-ple-Code pair<int,
+ int> ar-ray[1000000]; ; //
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2742 ...randint(int lb, int ub){ return uniform_
+                                                  int_distribution<int>(lb, ...
+
+? 
+! Extra }, or forgotten $.
+l.2742 ...rm_int_distribution<int>(lb, ub)(rng); }
+                                                  
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2743 
+       
+? 
+
+Underfull \hbox (badness 3312) in paragraph at lines 2740--2743
+[]\OT1/cmr/m/n/8 // how to use rand (in 2018) mt19937 rng(0x14004); int randint
+(int lb, int ub) re-turn
+ []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2748 priority_
+                queue<seg, vector<seg>, decltype(cmp)> pq(cmp); // max heap
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2749 
+       
+? 
+! Misplaced alignment tab character &.
+l.2753     bool operator==(const point &
+                                        p)const{ return x == p.x && y == p.y; }
+
+? 
+! Misplaced alignment tab character &.
+l.2753 ...(const point &p)const{ return x == p.x &
+                                                  & y == p.y; }
+? 
+! Misplaced alignment tab character &.
+l.2753 ...const point &p)const{ return x == p.x &&
+                                                   y == p.y; }
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2756     size_
+                t operator()(const point &p)const{ return p.x * 2 + p.y * 3; }
+? 
+! Misplaced alignment tab character &.
+l.2756     size_t operator()(const point &
+                                          p)const{ return p.x * 2 + p.y * 3; }
+? 
+! Extra }, or forgotten $.
+l.2757 }
+        ;
+? 
+
+! LaTeX Error: \begin{document} ended by \end{minted}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2759 \end{minted}
+                   
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2759 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2759 \end{minted}
+                   
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.2759 \end{minted}
+                   
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2762 	\item c
+               ki86201, zigui, PavelKunyavskiy
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2762 	\item c
+               ki86201, zigui, PavelKunyavskiy
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2762 	\item c
+               ki86201, zigui, PavelKunyavskiy
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2763 	\item \url
+                  {https://gist.github.com/msg555/4963794}
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2763 	\item \url
+                  {https://gist.github.com/msg555/4963794}
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2763 	\item \url
+                  {https://gist.github.com/msg555/4963794}
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2764 	\item \url
+                  {https://github.com/niklasb/contest-algos/blob/master/conv...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2764 	\item \url
+                  {https://github.com/niklasb/contest-algos/blob/master/conv...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2764 	\item \url
+                  {https://github.com/niklasb/contest-algos/blob/master/conv...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2765 	\item \url
+                  {https://github.com/jaehyunp/stanfordacm}
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2765 	\item \url
+                  {https://github.com/jaehyunp/stanfordacm}
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2765 	\item \url
+                  {https://github.com/jaehyunp/stanfordacm}
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2766 	\item \url
+                  {https://github.com/tzupengwang/PECaveros/blob/master/code...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2766 	\item \url
+                  {https://github.com/tzupengwang/PECaveros/blob/master/code...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2766 	\item \url
+                  {https://github.com/tzupengwang/PECaveros/blob/master/code...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2767 	\item \url
+                  {https://github.com/tzupengwang/PECaveros/blob/master/code...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2767 	\item \url
+                  {https://github.com/tzupengwang/PECaveros/blob/master/code...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2767 	\item \url
+                  {https://github.com/tzupengwang/PECaveros/blob/master/code...
+
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2768 	\item \url
+                  {http://www-math.mit.edu/~etingof/groups.pdf}
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2768 	\item \url
+                  {http://www-math.mit.edu/~etingof/groups.pdf}
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2768 	\item \url
+                  {http://www-math.mit.edu/~etingof/groups.pdf}
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2769 \end{itemize}
+                    
+? 
+
+Underfull \hbox (badness 2285) in paragraph at lines 2761--2769
+[]\OT1/cmr/m/n/8 [noitemsep,nolistsep]cki86201, zigui, PavelKun-yavskiy [][]$\O
+T1/cmtt/m/n/8 https : / / gist . github . com / msg555 / 4963794$[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2761--2769
+[][]$\OT1/cmtt/m/n/8 https : / / github . com / niklasb / contest-[]algos / blo
+b / master / convex _ hull / dynamic . cpp$[] [][]$https :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2761--2769
+\OT1/cmtt/m/n/8 / / github . com / jaehyunp / stanfordacm$[] [][]$https : / / g
+ithub . com / tzupengwang / PECaveros / blob / master /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2761--2769
+\OT1/cmtt/m/n/8 codebook / graph / BorrowedGeneralWeightedMatching . cpp$[] [][
+]$https : / / github . com / tzupengwang /
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2770.
+
+LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 2770.
+
+[7]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2770.
+ (./test.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2770.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2770.
+
+
+
+Package rerunfilecheck Warning: File `test.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `test.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  72360175A8D4F83F684C899986E9BB5C;3766.
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2770.
+ ) 
+Here is how much of TeX's memory you used:
+ 6410 strings out of 494060
+ 93605 string characters out of 6163035
+ 222026 words of memory out of 5000000
+ 9993 multiletter control sequences out of 15000+600000
+ 10236 words of font info for 41 fonts, out of 8000000 for 9000
+ 319 hyphenation exceptions out of 8191
+ 33i,21n,43p,444b,385s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2019basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
+0.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mbx8.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmex10.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/public/amsfon
+ts/cmextra/cmex8.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2019basic/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2019basic/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2019basic/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2019basic/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2019basic/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2019basic/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2019basic/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2019basic/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019ba
+sic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/201
+9basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/
+2019basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texli
+ve/2019basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on test.pdf (7 pages, 313100 bytes).
+PDF statistics:
+ 195 PDF objects out of 1000 (max. 8388607)
+ 165 compressed objects within 2 object streams
+ 64 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
