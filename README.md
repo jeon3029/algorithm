@@ -21,4 +21,5 @@
 > - until 2020 early
 > 2. Get google T-Shirt(google codejam)
 > - until 2021
+> - get into round 2(falling in 1000th place)
 >  3. Future think
