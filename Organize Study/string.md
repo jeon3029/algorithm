@@ -16,4 +16,12 @@ y = atoi(s.substr(3,2).c_str());
 //int to String
 int x = 1234;
 string s = to_string(x);
+
+//single character to string
+char c = 'A';
+string s;
+s.append(1,c);
+//or
+string temp(1,c);
+s.append(temp);
 ```
