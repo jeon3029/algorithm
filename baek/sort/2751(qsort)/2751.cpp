@@ -34,7 +34,7 @@ int main(){
   //입력
   cin>>N;
   for(int i=0;i<N;i++){
-    cin>>data[i];
+    scanf("%d",&data[i]);
   }
   //for(int i=0;i<N;i++){
   //  cout<<data[i]<<endl;
@@ -42,7 +42,7 @@ int main(){
   //qsort(data,0,N-1);
   std::sort(data,data+N);
   for(int i=0;i<N;i++){
-    cout<<data[i]<<endl;
+    cout<<data[i]<<'\n';
   }
   return 0;
 }

@@ -54,6 +54,7 @@ int main(void){
   a[6].push_back(7);
   inDegree[7]++;
 
+
   topologySort();
   return 0;
 }

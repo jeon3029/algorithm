@@ -14,7 +14,8 @@ bool dfs(int x){
     int t = a[x][i];
     if(c[t])continue;
     c[t]=true;
-    if(d[t]==0 || dfs(d[t])){
+    if(d[t]==0 || dfs(d[t])){//해당 요소를 체크할 수 있는지, 안된다면 이 원소를 가리키고 잇는 녀석을 다른 곳으로 보낼 수 있는지.
+      
       d[t] = x;
       return true;
     }
