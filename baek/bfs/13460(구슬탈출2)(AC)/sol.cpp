@@ -29,13 +29,13 @@ int bfs(){
       int next_ry = cur.ry;
       int next_bx = cur.bx;
       int next_by = cur.by;
-      
+
       while(1){
         //cout<<"1";
         if(map[next_ry][next_rx] != '#' && map[next_ry][next_rx]!='O'){
           next_ry += dy[dir]; next_rx += dx[dir];
         }
-        else {
+        else {//found wall or hall
           if(map[next_ry][next_rx]=='#'){
             next_ry-=dy[dir];next_rx-=dx[dir];
           }
@@ -47,14 +47,17 @@ int bfs(){
           next_by += dy[dir]; next_bx += dx[dir];
         }
 
-        else {
+        else {//found wall or hall
           if(map[next_by][next_bx]=='#'){
             next_by-=dy[dir];next_bx-=dx[dir];
           }
           break;
         }
       }
-      if(next_rx == next_bx && next_ry == next_by){
+      if(map[next_ry][next_rx]=='O' && map[next_by][next_bx]=='O'){
+        continue;
+      }
+      if(next_rx == next_bx && next_ry == next_by){//겹치는 경우
         int rd = abs(next_ry-cur.ry) + abs(next_rx-cur.rx);
         int bd = abs(next_by-cur.by) + abs(next_bx-cur.bx);
         if(rd>bd){
@@ -64,6 +67,7 @@ int bfs(){
           next_by-=dy[dir];next_bx-=dx[dir];
         }
       }
+
       if(visited[next_ry][next_rx][next_by][next_bx] ==0){
         visited[next_ry][next_rx][next_by][next_bx]=1;
         INFO next;
@@ -71,7 +75,6 @@ int bfs(){
         next.count = cur.count+1;
         q.push(next);
       }
-
     }
   }
   return ret;
@@ -99,7 +102,7 @@ int main(void){
     }
   }
 //  cout<<endl;
-  start.count = 0; 
+  start.count = 0;
   int ret = bfs();
   cout<<ret<<endl;
   return 0;
