@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
   long long n,m,a;
-  cin>>n>>m>>a;
+  cin>> n >> m >> a;
   long long k1 = n/a;
   long long k2 = m/a;
   long long d1 = n%a;

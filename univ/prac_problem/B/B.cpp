@@ -47,7 +47,7 @@ int main(){
     }
     //입력 끝
     int res = topologySort();
-    cout<<"Case #"<<num+1<<'\n';
+    cout<<"Case #"<<num+1<<'\n'; 
     cout<<res<<'\n';
   }
   return 0;
