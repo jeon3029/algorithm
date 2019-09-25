@@ -1,7 +1,3 @@
-#include<bits/stdc++.h>
-#include<fstream>
-using namespace std;
-ifstream inp;
 #include <string>
 #include <vector>
 #include<math.h>
@@ -76,13 +72,4 @@ int solution(string numbers) {
         dfs(0,0,i,numbers);
     }
     return result.size();
-}
-int main() {
-    ios_base::sync_with_stdio(0); cin.tie(0);
-    string T;
-    inp.open("input.txt");
-    inp >> T;
-    printf("%lld\n", solution(T));
-    inp.close();
-    return 0;
 }
