@@ -1,6 +1,7 @@
-
 ## custom cmp 만들기
+
 1.
+
 ```c++
 bool cmp(vector<int> vec1,vector<int> vec2){
     if(Time!=0){
@@ -18,6 +19,7 @@ bool cmp(vector<int> vec1,vector<int> vec2){
     return vec1[1]<vec2[1];
 }
 ```
+
 2.
 
 ```c++
@@ -32,6 +34,7 @@ bool comp(int a,int b){
     return s1>s2;
 }
 ```
+
 3.
 
 ```c++

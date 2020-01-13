@@ -1,11 +1,12 @@
 ### 임의 랜덤 넘버 생성
+
 ```cpp
 //Small random
 #include<ctime>
 #include<iostream>
 using namespace std;
 srand((int)time(0));
-r = rand()%100+1; 
+r = rand()%100+1;
 
 
 
