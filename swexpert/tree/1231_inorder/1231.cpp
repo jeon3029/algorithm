@@ -9,6 +9,7 @@ void in_order(vector<char> tree,string &answer,int current){
         in_order(tree,answer,current*2+1);
     }
     answer.append(1,tree[current]);
+    //right child
     if((current*2+2)<tree.size()){
         in_order(tree,answer,current*2+2);
     }
@@ -23,9 +24,11 @@ int main(int argc, char **argv)
     T = 10;
     for (test_case = 1; test_case <= T; ++test_case){
         string answer;
-        int N;cin>>N;
-        vector<char> tree(N,'0');
         string input;
+        int N;
+        getline(cin,input);
+        N=atoi(input.c_str());
+        vector<char> tree(N,'0');
         for(int i=0;i<N;i++){
             getline(cin,input);
             istringstream ss(input);
