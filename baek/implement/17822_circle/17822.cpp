@@ -9,7 +9,6 @@ int main(int argc, char **argv){
     cout.tie(NULL);
     int N,M,T;
     cin>>N>>M>>T;
-    //cout<<N<<M<<T<<endl;
     vector<vector<int> > circle;
     vector<int> rotate(N,0);
     for(int i=0;i<N;i++){
@@ -29,14 +28,10 @@ int main(int argc, char **argv){
                 rotate[n-1] += rot_val;
             }
             else{//counter clock wise
-                rotate[n-1] += 4-rot_val;
+                rotate[n-1] += M-rot_val;
             }
-            rotate[n-1]%=4;
+            rotate[n-1]%=M;
         }
-        // for(int i=0;i<N;i++){
-        //     cout<<rotate[i]<<" ";
-        // }cout<<endl<<endl;
-
         //find same value adjacent circle
         queue<pair<int,int>> deleted_q; //원판, 위치
         //case 1: same circle
@@ -94,10 +89,9 @@ int main(int argc, char **argv){
     int answer = 0;
     for (int i = 0; i < N; i++){
         for (int j = 0; j < M; j++){
-            //cout<<circle[i][j]<<" ";
             answer+=circle[i][j];
-        }//cout<<endl;
+        }
     }
     cout << answer << endl;
-    return 0; //정상종료시 반드시 0을 리턴해야합니다.
+    return 0; 
 }
