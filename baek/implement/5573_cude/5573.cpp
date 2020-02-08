@@ -268,16 +268,6 @@ void calc(string s){
             default:
                 cout<<"123123";
     }
-    // cout<<s<<endl;
-    // for(int k=0;k<6;k++){
-    //     for(int i=0;i<3;i++){
-    //         for(int j=0;j<3;j++){
-    //             cout<<cube[k][i*3+j];
-    //         }cout<<endl;
-    //     }
-    //     cout<<endl;
-    // }
-    // cout<<endl<<endl;
 }
 int main(){
     ios_base::sync_with_stdio(0);
