@@ -1,3 +1,4 @@
+//dynamic priority queue
 #include<bits/stdc++.h>
 using namespace std;
 int n, m, dp[55][55], g[55][55], sx, sy, ex, ey;
@@ -49,6 +50,11 @@ int main() {
             pq.push(make_pair(-cost - g[cx][cy],make_pair(cx,cy) ));
         }
     }
+    // for (int i = 0; i < n; i++) {
+    //     for (int j = 0; j < m; j++) {
+    //         printf("%d ",dp[i][j]);
+    //     }puts("");
+    // }
     printf("%d %d\n", dp[ex][ey] / 3000, dp[ex][ey] % 3000);
     return 0;
 }
