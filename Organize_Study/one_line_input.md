@@ -1,7 +1,7 @@
 - get line string
 ```c++
-```
 getline(cin,input);
+```
 - get tokens
 ```c++
 getline(cin,input);
