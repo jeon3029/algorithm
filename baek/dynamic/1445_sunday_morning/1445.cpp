@@ -34,8 +34,8 @@ int main() {
         }
     }
     memset(dp, -1, sizeof(dp));
-    priority_queue<pair<int, pair<int, int> > > pq;
-    pq.push(make_pair(g[sx][sy],make_pair(sx,sy)));
+    priority_queue<pair<int, pair<int,int>>> pq;
+    pq.push({g[sx][sy],{sx,sy}});
     while (pq.size()) {
         int x = pq.top().second.first;
         int y = pq.top().second.second;
@@ -47,14 +47,9 @@ int main() {
             int cx = x + dir[d][0];
             int cy = y + dir[d][1];
             if (!chk(cx, cy) || dp[cx][cy] != -1)continue;
-            pq.push(make_pair(-cost - g[cx][cy],make_pair(cx,cy) ));
+            pq.push({-cost - g[cx][cy],{cx,cy}});
         }
     }
-    // for (int i = 0; i < n; i++) {
-    //     for (int j = 0; j < m; j++) {
-    //         printf("%d ",dp[i][j]);
-    //     }puts("");
-    // }
     printf("%d %d\n", dp[ex][ey] / 3000, dp[ex][ey] % 3000);
     return 0;
 }
