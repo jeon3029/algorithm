@@ -7,8 +7,8 @@ for((i=1;;++i)); do
     ./gen $i > int
     #./a.out < int > out1
     #./brute < int > out2
-    diff -w out1 out2 || break
-    #diff -w (./brute < int) (./a.out < int ) ||break
+    #diff -w out1 out2 || break
+    diff -w (./brute < int) (./a.out < int ) ||break
 done
 ```
 ### Generator
