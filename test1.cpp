@@ -1,4 +1,6 @@
-#include<iostream>
+#define NDEBUG
+#include<bits/stdc++.h>
+//#include<cassert>
 using namespace std;
 int main()
 {
@@ -8,5 +10,6 @@ int main()
   cin>>x>>y;
   int sum= x+y;
   cout<<"sum is "<<sum<<" "<<endl;
+  assert(!"error");
   return 0;
 }
