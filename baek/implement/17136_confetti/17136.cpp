@@ -2,8 +2,8 @@
 #define N 10
 #define f(i,n) for(int i=0;i<n;i++)
 using namespace std;
-int Confetti[6] = {0,5,5,5,5,5};
-int Map[N][N];
+vector<int> Confetti = {0,5,5,5,5,5};
+vector<vector<int> > Map(N,vector<int>(N,0));
 int cnt = 0;
 int answer=1000;
 void input(){
@@ -14,15 +14,14 @@ void input(){
         }
     }
 }
-void M_set(int p[N][N],int x,int y,int num,int val){
+void M_set(vector<vector<int>>& p,int x,int y,int num,int val){
     for(int i=x;i<x+num;i++){
         for(int j=y;j<y+num;j++){
             p[i][j]=val;
         }
     }
 }
-void dfs(int CMap[N][N],int Confe[6],int cx,int cy,int cur_cnt,int tot){
-    //cout<<cx<<","<<cy<<"\n";
+void dfs(vector<vector<int> > CMap,vector<int> Confe,int cx,int cy,int cur_cnt,int tot){
     if(cur_cnt>answer)return;
     if(tot==0){
         if(cur_cnt<answer)answer=cur_cnt;
