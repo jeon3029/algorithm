@@ -39,7 +39,7 @@ int main(int argc,char** argv){
 # 1. fast running time
 g++ -O2 -std=c++17 -Wno-unused-result -Wall -o a a.cpp
 # 2. check for mistakes
-g++ -std=c++17 .Wshadow -Wall -o -a a.cpp
+g++ -std=c++17 -Wshadow -Wall "%e" "%f" -o -a a.cpp
  -fsanitize=address -fsanitize=undefined -D_GBLIBCXX_DEBUG -g
 ```
 
