@@ -1,8 +1,12 @@
 #include<bits/stdc++.h>
 using namespace std;
+typedef pair<int, int> pi;
+
 bool Map[2000][2000];
+vector<string> sMap;
 vector<vector<bool>> pat;
 int N,M;
+int NN;
 bool Hex[16][4] = {
 {0,0,0,0},
 {0,0,0,1},
@@ -35,17 +39,30 @@ void init(){
 }
 void input(){
     cin>>N>>M;
+    NN=0;
+    int check=0;
     for(int i=0;i<N;i++){
         string s;cin>>s;
+        sMap.push_back(s);
         int pos;
+        int flag=0;
+        for(int j=0;j<M;j++){
+            if(s[j]!='0'){
+                flag=1;break;
+            }
+        }
+        if(flag==0 && check!=1)continue;
+        check=1;
+        if(flag==0)check=0;
         for(int j=0;j<M;j++){
             if(s[j]>='0' && s[j]<='9')pos = s[j]-'0';
             else pos = s[j]-'A'+10;
-            Map[i][j*4] = Hex[pos][0];
-            Map[i][j*4+1] = Hex[pos][1];
-            Map[i][j*4+2] = Hex[pos][2];
-            Map[i][j*4+3] = Hex[pos][3];
+            Map[NN][j*4] = Hex[pos][0];
+            Map[NN][j*4+1] = Hex[pos][1];
+            Map[NN][j*4+2] = Hex[pos][2];
+            Map[NN][j*4+3] = Hex[pos][3];
         }
+        NN++;
     }
 }
 int calc(const int x,const int y,const int multi){
@@ -83,9 +100,10 @@ int main(){
         input();
         int f=0;
         int answer=0;
-        for(int i=0;i<N-5;i++){
+        for(int i=0;i<NN-5;i++){
             for(int j=0;j<M*4-(7*8);j++){
-                for(int multi = 1;;multi++){
+                //if(sMap[i][j/4]=='0'||sMap[i][j/4]>='8')continue;
+                for(int multi = 1;multi<=4;multi++){
                     if((j+multi*56) >=(M*4)){
                         break;
                     }
@@ -110,6 +128,7 @@ int main(){
                         if((sum_1*3+sum_2+pass[7])%10==0){
                             answer += sum;
                             for(int a=i;;a++){
+                                if(a==NN)break;
                                 int cnt = 0;
                                 for(int b=j;b<j+multi*56;b++){
                                     if(Map[a][b]){
@@ -123,6 +142,6 @@ int main(){
                 }
             }
         }
-        cout<<"#"<<tc<<" "<<answer<<"\n";
+        cout<<"#"<<tc<<" "<<answer<<endl;
     }
 }
