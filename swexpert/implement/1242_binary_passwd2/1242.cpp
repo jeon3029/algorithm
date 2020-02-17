@@ -1,3 +1,4 @@
+
 #include<bits/stdc++.h>
 using namespace std;
 typedef pair<bool, int> pi;
@@ -5,7 +6,6 @@ bool Map[2000][2000];
 vector<vector<int>> rat;//ratio
 vector<vector<pi>> count_num;
 int N,M;
-int NN;
 bool Hex[16][4] = {
 {0,0,0,0},
 {0,0,0,1},
@@ -39,7 +39,6 @@ void init(){
 void input(){
     cin>>N>>M;
     int check=0;
-    count_num.clear();
     for(int i=0;i<N;i++){
         string s;cin>>s;
         int pos;
@@ -51,47 +50,75 @@ void input(){
             Map[i][j*4+2] = Hex[pos][2];
             Map[i][j*4+3] = Hex[pos][3];
         }
-        vector<pi> tt(M*4,{0,0});
-        count_num.push_back(tt);
     }
-    for(int i=N-1;i>=0;i--){
-        int t = Map[i][M*4-1];
-        int cnt=0;
-        for(int j=M*4-1;j>=0;j--){
+    count_num.clear();
+    for(int i=0;i<N;i++){
+        vector<pi> temp;
+        temp.clear();
+        bool t = Map[i][0];
+        int cnt = 0;
+        for(int j=0;j<M*4;j++){
             if(Map[i][j]==t){
                 cnt++;
-                count_num[i][j] = {t,cnt};
             }
             else{
-                cnt=1;
-                t=Map[i][j];
-                count_num[i][j]={t,cnt};
+                temp.push_back({t,cnt});
+                cnt = 1;
+                t= Map[i][j];
             }
         }
+        temp.push_back({t, cnt});
+        count_num.push_back(temp);
     }
 }
 int check(int x,int y,int mul){
-    int first_number = count_num[x][y].first;
-    int first_count = count_num[x][y].second;
-    y+= first_count;
-    if(first_number==1)return -1;
-    if(y>M*4)return -1;
-    int second_number = count_num[x][y].first;
-    int second_count = count_num[x][y].second;
-    y+= second_count;
-    if(y>M*4)return -1;
-    int third_number = count_num[x][y].first;
-    int third_count = count_num[x][y].second;
-    y+= third_count;
-    if(y>M*4)return -1;
-    int fourth_number = count_num[x][y].first;
-    int fourth_count = count_num[x][y].second;
-    if(first_number==-1 || second_number== -1 ||third_number==-1||fourth_number==-1)return -1;
+    if(count_num[x].size()<y+3){
+        return -1;
+    }
+    if (count_num[x][y].first == count_num[x][y + 1].first || count_num[x][y+1].first == count_num[x][y + 2].first){
+        return -1;
+    }
     vector<int> c;
-    c.push_back(first_count/mul);
-    c.push_back(second_count/mul);
-    c.push_back(third_count/mul);
-    c.push_back(fourth_count/mul);
+    c.push_back(0);
+    c.push_back(count_num[x][y].second/mul);
+    c.push_back(count_num[x][y+1].second/mul);
+    c.push_back(count_num[x][y+2].second/mul);
+    for(int i=1;i<4;i++){
+        if(c[i]==0)return -1;
+    }
+    for(int i=0;i<10;i++){
+        int f=0;
+        for(int j=1;j<4;j++){
+            if(rat[i][j] !=c[j]){
+                f=1;break;
+            }
+        }
+        if(f==0){
+            if(count_num[x][y-1].first==0){
+                int temp = 0;
+                if(i>=3 && i<=8)temp=1;
+                else if(i==0||i==9)temp=3;
+                else temp=2;
+                if(count_num[x][y-1].second>=temp)
+                    return i;
+            }
+            return -1;
+        }
+    }
+    return -1;
+}
+int check2(int x,int y,int mul){
+    if(count_num[x].size()<y+4){
+        return -1;
+    }
+    if (count_num[x][y].first == count_num[x][y + 1].first || count_num[x][y+1].first == count_num[x][y + 2].first||count_num[x][y+2].first==count_num[x][y+3].first){
+        return -1;
+    }
+    vector<int> c;
+    c.push_back(count_num[x][y].second/mul);
+    c.push_back(count_num[x][y+1].second/mul);
+    c.push_back(count_num[x][y+2].second/mul);
+    c.push_back(count_num[x][y+3].second/mul);
     for(int i=0;i<4;i++){
         if(c[i]==0)return -1;
     }
@@ -115,33 +142,34 @@ int main(){
     int T;cin>>T;
     for(int tc=1;tc<=T;tc++){
         input();
+        //continue;
         int f=0;
         int answer=0;
+        set<vector<int>> passwd;
         for(int i=0;i<N-5;i++){
-            for(int j=0;j<M*4-56;j++){
-                if(count_num[i][j].second==-1)continue;
-                for(int multi = 1; multi<=4;multi++){
-                    if((j+multi*56>(4*M))){
-                        break;
+            if(count_num[i].size()<28)continue;
+            for(int j=1;j<=count_num[i].size()-28;j++){
+                for(int multi = 1;multi<=5;multi++){
+                    int val;
+                    if(multi*56>M*4)break;
+                    vector<pi> pattern;
+                    if(count_num[i][j].first==1){
+                        val = check(i,j,multi);
+                        pattern.push_back(count_num[i][j]);
+                        if(val==-1)continue;
                     }
-                    //TODO : check for next start point
-                    int val=check(i,j,multi);
-                    if(val==-1)continue;
+                    else continue;
                     vector<int> pass(1,val);
-                    int temp = j;
-                    j+=count_num[i][j].second;
-                    j+=count_num[i][j].second;
-                    j+=count_num[i][j].second;
-                    j+=count_num[i][j].second;
+                    j--;
                     for(int k=0;k<7;k++){
-                        int temp = check(i,j,multi);
+                        int temp = check2(i,j+(k+1)*4,multi);
                         if(temp==-1)break;
-                        else pass.emplace_back(temp);
-                        j+=count_num[i][j].second;
-                        j+=count_num[i][j].second;
-                        j+=count_num[i][j].second;
-                        j+=count_num[i][j].second;
+                        else {
+                            pass.emplace_back(temp);
+                            pattern.push_back(count_num[i][j+(k+1)*4]);
+                        }
                     }
+                    j++;
                     if(pass.size()==8){
                         int sum = 0;
                         int sum_1=0;
@@ -153,28 +181,17 @@ int main(){
                             else sum_2+=pass[k];
                         }
                         if((sum_1*3+sum_2+pass[7])%10==0){
-                            answer += sum;
-                            // cout<<i<<","<<temp<<" : "<<sum<<"\n";
-                            for(int a=i;;a++){
-                                int count_one=0;
-                                for(int b=temp;b<temp+multi*56;b++){
-                                    if(count_num[a][b].first == true)count_one++;
-                                    count_num[a][b].first = 0;
-                                    count_num[a][b].second = -1;
-                                }
-                                //cout<<"erase : "<<a<<"\n";
-                                if(count_one==0)break;
-                            }
-                            break;
+                            pass.push_back(sum);
+                            passwd.insert(pass);
                         }
                     }
-                    else{
-                        j=temp;
-                    }
                 }
-                if(f==1)break;
-            }if(f==1)break;
+            }
         }
-        cout<<"#"<<tc<<" "<<answer<<"\n";
+        
+        for(auto it:passwd){
+            answer+=it[8];
+        }
+        cout<<"#"<<tc<<" "<<answer<<endl;
     }
 }
