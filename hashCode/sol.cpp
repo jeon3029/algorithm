@@ -43,12 +43,12 @@ void input(){
 //두번째 기준 가지고 있는 책의 수 많은 것
 //세번째 기준 signup이 큰 순서
 bool cmpL(Library a, Library b){
-    if(a.signup==b.signup){
-        if(a.books.size()==b.books.size()){
-            return a.ship>b.ship;
-        }
-        else return a.books.size()>b.books.size();
-    }
+    // if(a.signup==b.signup){
+    //     if(a.books.size()==b.books.size()){
+    //         return a.ship>b.ship;
+    //     }
+    //     else return a.books.size()>b.books.size();
+    // }
     return a.signup<b.signup;
 }
 //처음기준 score높은 것
@@ -56,6 +56,7 @@ bool cmpL(Library a, Library b){
 bool cmpB(pi a,pi b){
     return a.second>b.second;
 }
+bool usedBooks[100001];
 int main(){
     ios_base::sync_with_stdio(0);
     cin.tie(0);cout.tie(0);
@@ -66,7 +67,7 @@ int main(){
     int f=0;
     vector<int> outLib;
     vector<vector<int>> outBooks;
-
+    
     for(int i=0;i<Lib.size();i++){
         Library curL = Lib[i];
         curT += curL.signup;
@@ -75,16 +76,29 @@ int main(){
         
         int len = (curL.books.size()+curL.ship-1)/curL.ship;
         sort(curL.books.begin(),curL.books.end(),cmpB);
+        
         int cnt=0;
         vector<int> ob;
+
         for(int t=curT;t<curT+len;t++){
             if(t>D){
                 f=1;
                 break;
             }
+            vector<int> already;
             for(int k=0;(k<curL.ship && cnt<curL.books.size());k++){
-                sended_books.insert(curL.books[cnt].first); 
-                ob.push_back(curL.books[cnt++].first);
+                int temp = curL.books[cnt++].first;
+                if(usedBooks[temp]==0){
+                    usedBooks[temp]=1;
+                    sended_books.insert(temp); 
+                    ob.push_back(temp);
+                }
+                else{
+                    already.push_back(temp);
+                }
+            }
+            for(int k=0;k<already.size();k++){
+                ob.push_back(already[k]);
             }
         }
         outBooks.push_back(ob);
