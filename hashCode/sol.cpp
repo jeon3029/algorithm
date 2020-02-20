@@ -11,11 +11,13 @@ public:
     int signup;
     int ship;
     int sum;
+    bool checked;
     Library(){
         index=0;
         signup=0;
         ship=0;
         sum=0;
+        checked=false;
     }
 };
 vector<Library> Lib;
@@ -40,15 +42,14 @@ void input(){
     }
 }
 //처음기준 signup작은 것
+//totalsum* ship 많은 순
+
 //두번째 기준 가지고 있는 책의 수 많은 것
-//세번째 기준 signup이 큰 순서
+//세번째 기준 ship이 큰 순서
 bool cmpL(Library a, Library b){
-    // if(a.signup==b.signup){
-    //     if(a.books.size()==b.books.size()){
-    //         return a.ship>b.ship;
-    //     }
-    //     else return a.books.size()>b.books.size();
-    // }
+    if(a.signup==b.signup){
+        return a.books.size()/a.ship>b.books.size()/b.ship;
+    }
     return a.signup<b.signup;
 }
 //처음기준 score높은 것
@@ -68,41 +69,58 @@ int main(){
     vector<int> outLib;
     vector<vector<int>> outBooks;
     
-    for(int i=0;i<Lib.size();i++){
-        Library curL = Lib[i];
-        curT += curL.signup;
-        if(curT>D)break;
-        outLib.push_back(curL.index);
-        
-        int len = (curL.books.size()+curL.ship-1)/curL.ship;
-        sort(curL.books.begin(),curL.books.end(),cmpB);
-        
-        int cnt=0;
-        vector<int> ob;
 
-        for(int t=curT;t<curT+len;t++){
-            if(t>D){
-                f=1;
-                break;
-            }
-            vector<int> already;
-            for(int k=0;(k<curL.ship && cnt<curL.books.size());k++){
-                int temp = curL.books[cnt++].first;
-                if(usedBooks[temp]==0){
-                    usedBooks[temp]=1;
-                    sended_books.insert(temp); 
-                    ob.push_back(temp);
+    for(int per = 990;per>=1;per-=1){    
+        double percentage = per/1000.0;
+        for(int i=0;i<Lib.size();i++){
+            Library curL = Lib[i];
+            int duplicate=0;
+            if(curL.checked==1) continue;
+            if(i!=Lib.size()-1){
+                for(int j=0;j<curL.books.size();j++){
+                    int currentB = curL.books[j].first;
+                    if(usedBooks[currentB])duplicate++;
                 }
-                else{
-                    already.push_back(temp);
+                if(((double)duplicate/curL.books.size()>percentage)){
+                    continue;
                 }
             }
-            for(int k=0;k<already.size();k++){
-                ob.push_back(already[k]);
+            Lib[i].checked=1;
+
+            curT += curL.signup;
+            if(curT>D)break;
+            outLib.push_back(curL.index);
+            
+            int len = (curL.books.size()+curL.ship-1)/curL.ship;
+            sort(curL.books.begin(),curL.books.end(),cmpB);
+            
+            int cnt=0;
+            vector<int> ob;
+            
+            for(int t=curT;t<curT+len;t++){
+                if(t>D){
+                    f=1;
+                    break;
+                }
+                vector<int> already;
+                for(int k=0;(k<curL.ship && cnt<curL.books.size());k++){
+                    int temp = curL.books[cnt++].first;
+                    if(usedBooks[temp]==0){
+                        usedBooks[temp]=1;
+                        sended_books.insert(temp); 
+                        ob.push_back(temp);
+                    }
+                    else{
+                        already.push_back(temp);
+                    }
+                }
+                for(int k=0;k<already.size();k++){
+                    ob.push_back(already[k]);
+                }
             }
+            outBooks.push_back(ob);
+            if(f==1)break;
         }
-        outBooks.push_back(ob);
-        if(f==1)break;
     }
     cout<<outLib.size()<<"\n";
     for(int i=0;i<outLib.size();i++){
