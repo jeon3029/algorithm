@@ -1,6 +1,5 @@
 #include<bits/stdc++.h>
 using namespace std;
-//TODO: heap 구조로 만들어야 됨.
 class Node{
     public:
     int value;
