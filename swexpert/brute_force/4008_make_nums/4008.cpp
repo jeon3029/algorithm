@@ -9,7 +9,7 @@ int answer_min;
 int calc(vector<int> op){
     int answer = D[0];
     int pos=1;
-    for(auto it:op){
+    for(auto it:op){    
         if(it==0){
             answer+=D[pos++];
         }
