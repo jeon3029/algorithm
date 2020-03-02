@@ -8,7 +8,7 @@ vector<vector<int>> G;
 long long dfs(int parent,int node, int color){
     //memoization
     if (D[node][color] != -1) return D[node][color] % MOD;
-    
+
     int cnt = 0;
     for (int i = 0; i < G[node].size(); i++){
         int y = G[node][i];
