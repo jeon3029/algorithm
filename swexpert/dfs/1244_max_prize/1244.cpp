@@ -2,7 +2,7 @@
 using namespace std;
 string S;int N;
 int answer;
-void dfs(int cur,int len){
+void dfs(int cur,int len){//TODO :: 상태공간트리 모두 만족하지 않음.
     if(len==N){
         int temp = atoi(S.c_str());
         answer = max(answer,temp);
