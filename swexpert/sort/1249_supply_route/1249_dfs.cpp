@@ -56,7 +56,7 @@ int main(){
         answer = INF;
         int x=0,y=0;
         int sum = 0;
-        while(1){//greedy answer : only think right and down direction
+        while(1){//greedy answer : only min of right and down direction
             if(x==N-1 && y==N-1){
                 answer=sum;break;
             }
@@ -79,6 +79,7 @@ int main(){
                 y++;
             }
         }
+        
         dfs(0,0,1,0);
         cout<<"#"<<tc<<" "<<answer<<"\n";
     }
