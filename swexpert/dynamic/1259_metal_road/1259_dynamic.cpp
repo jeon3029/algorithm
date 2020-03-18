@@ -22,4 +22,7 @@ int main(){
 			f=D[f][0];
 		}cout<<"\n";
 	}
+	while(1){
+		cout<<"1";
+	}
 }
