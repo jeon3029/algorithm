@@ -51,15 +51,8 @@ int main(){
 		
 		//find mimimum multiply count
 		int dp[20][20];
-		for(int i=0;i<mat.size();i++){
-			for(int j=0;j<mat.size();j++){
-				dp[i][j] = 0;
-			}
-		}
-		for(int i=0;i<mat.size()-1;i++){
-			dp[i][i+1] = calc(mat[i],mat[i+1]);
-		}
-		for(int i=2;i<mat.size();i++){
+		memset(dp,0,sizeof(dp));
+		for(int i=1;i<mat.size();i++){
 			for(int j=0;j<mat.size()-i;j++){ //j부터 i칸 만큼 확인
 				pi t1,t2;
 				t1.first = j;
