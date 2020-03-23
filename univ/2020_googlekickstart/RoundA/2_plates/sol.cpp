@@ -30,12 +30,6 @@ int main(){
 				}
 			}
 		}
-		for(int i=1;i<=N;i++){
-			for(int j=0;j<=P;j++){
-				cout<<dp[i][j]<<" ";
-			}
-			cout<<"\n";
-		}
 		cout<<"Case #"<<tc<<": "<<dp[N][P]<<"\n";
 	}
 }
