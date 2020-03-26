@@ -3,29 +3,17 @@ using namespace std;
 int Data[20][2];
 int N;
 long long answer;
-void solve(int pos,int visited,int count){
-    if(count == N/2){
-        long long val;
-        long long x = 0;
-        long long y = 0;
-        for(int i=0;i<N;i++){
-            if(visited & (1<<i)){
-                x+=Data[i][0];
-                y+=Data[i][1];
-            }
-            else{
-                x-=Data[i][0];
-                y-=Data[i][1];
-            }
-        }
-        val = x*x + y*y;
+void solve(int pos,int count,long long x,long long y){
+    if(count==N/2 && pos == N){
+        long long val = x*x + y*y;
         answer = min(answer,val);
         return;
     }
+    if(count>N/2)return;
+    if((N/2-count)>N-pos)return;
     if(pos==N)return;
-    int temp = visited | 0x1<<pos;
-    solve(pos+1,temp,count+1);
-    solve(pos+1,visited,count);
+    solve(pos+1,count+1,x+Data[pos][0],y+Data[pos][1]);
+    solve(pos+1,count,x-Data[pos][0],y-Data[pos][1]);
 }
 int main(){
     ios_base::sync_with_stdio(0);
@@ -38,7 +26,7 @@ int main(){
             cin>>Data[i][0]>>Data[i][1];
         }
         answer = 9876543210123;
-        solve(0,0,0);
+        solve(0,0,0,0);
         cout<<"#"<<tc<<" "<<answer<<"\n";
     }
 }
