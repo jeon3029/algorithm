@@ -1,7 +1,5 @@
 #include<bits/stdc++.h>
 using namespace std;
-#define rep(i,a,n) for (int i=a;i<n;i++)
-#define per(i,a,n) for (int i=n-1;i>=a;i--)
 //predefined
 string s;
 void input(){
@@ -18,7 +16,7 @@ int main(){
     {
         //base case k=0    
         vector<pair<char,int>> a(n);
-        for(int i=0;i<n;i++)a[i] = {s[i],i};//캐릭터 + 인덱스
+        for(int i=0;i<n;i++)a[i] = {s[i],i};
         sort(a.begin(),a.end());
         for(int i=0;i<n;i++)p[i] = a[i].second;
         c[p[0]] = 0;
@@ -45,6 +43,24 @@ int main(){
     }
     for(int i=0;i<n;i++){
         cout<<p[i]<<" ";
+    }cout<<"\n";
+    // for(int i=0;i<n;i++){
+    //     cout<<c[i]<<" ";
+    // }cout<<"\n";
+    
+    vector<int> lcp(n);
+    int len = 0;
+    for(int i=0;i<n-1;i++){
+        int pos = c[i];
+        int j = p[pos-1];
+        while( s[i+len] ==  s[j+len])
+            len++;
+        lcp[pos] = len;
+        //cout <<pos<<" : "<<len<<"\n";
+        len = max(len-1,0);
     }
-    cout<<"\n";
+    // for(int i=0;i<n;i++){
+    //     if (i) cout<< lcp[i]<<" ";
+    //     else cout<< "x" <<" ";
+    // }cout<<"\n";
 }
