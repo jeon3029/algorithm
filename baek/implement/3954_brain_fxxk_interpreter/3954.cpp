@@ -39,8 +39,9 @@ int main(){
       }
     }
     int rightB = 0;
-    
+    int flag = 0;
     while(pos < sc){
+      // cout<<pos<<" : "<<Code[pos]<<"\n";
       counter++;
       if(counter>50000000){
         break;
@@ -75,13 +76,15 @@ int main(){
         }
       }
       else{//']'
-        if(Data[pointer]!=0){
+        if(Data[pointer]!=0){  
+          if (counter>=40000000){//루프된 상황이라고 가정
+            if(pos>rightB)rightB = pos;//최대한 오른쪽
+          }
           pos = bracketPos[pos];
           pos--;
         }
       }
       pos++;
-      if(pos>rightB)rightB = pos;
     }
     if(counter<=50000000){
       cout<<"Terminates\n";
